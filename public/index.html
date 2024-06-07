@@ -24,6 +24,8 @@
         height: 90vmin;
         width: 90vmin;
       }
+      .field { width: 12.5vmin, heigth: 12.5vmin; background-color: white; transition: all 1s; }
+      #board:nth-child(odd)       { background-color: black; }
     </style>
   </head>
   <body>
@@ -31,9 +33,11 @@
 
     </div>
     <script>
-        //make a board
 
-      for()
+    var board=        {11:11,12:12,13:13,14:14,15:15,16:16,17:17,18:18,21:21,22:22,23:23,24:24,25:25,26:26,27:27,28:28,31:0,32:0,33:0,34:0,35:0,36:0,37:0,38:0,41:0,42:0,43:0,44:0,45:0,46:0,47:0,48:0,51:0,52:0,53:0,54:0,55:0,56:0,57:0,58:0,61:0,62:0,63:0,64:0,65:0,66:0,67:0,68:0,71:71,72:72,73:73,74:74,75:75,76:76,77:77,78:78,81:81,82:82,83:83,84:84,85:85,86:86,87:87,88:88}
+
+      for(piece of board)
+      { board.append(document.createElement('div).outerHTML = `<div class="field" id="${piece}"></div>`}
 
     </script>
   </body>
