@@ -1,0 +1,1840 @@
+/*--------------------------------
+
+UI icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+
+@font-face {
+  font-family: 'UI';
+  src: url('../fonts/UI.eot');
+  src: url('../fonts/UI.eot') format('embedded-opentype'),
+       url('../fonts/UI.woff2') format('woff2'),
+       url('../fonts/UI.woff') format('woff'),
+       url('../fonts/UI.ttf') format('truetype'),
+       url('../fonts/UI.svg') format('svg');
+}
+
+/* base class */
+.ui {
+  display: inline-block;
+  font: normal normal normal 1em/1 'UI';
+  color: inherit;
+  flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.ui-sm {
+  font-size: 0.8em;
+}
+
+.ui-lg {
+  font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.ui-16 {
+  font-size: 16px;
+}
+
+.ui-32 {
+  font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.ui-is-spinning {
+  animation: ui-spin 1s infinite linear;
+}
+
+@keyframes ui-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* transform */
+.ui-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.ui-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.ui-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.ui-flip-y {
+  transform: scaleY(-1);
+}
+
+.ui-flip-x {
+  transform: scaleX(-1);
+}
+
+/* icons */
+.UI-xmark-2::before {
+  content: "\ea02";
+}
+
+.UI-window-expand-bottom-right-2::before {
+  content: "\ea03";
+}
+
+.UI-trash-2::before {
+  content: "\ea04";
+}
+
+.UI-triangle-warning-2::before {
+  content: "\ea05";
+}
+
+.UI-toggle-3-2::before {
+  content: "\ea06";
+}
+
+.UI-tasks-2-2::before {
+  content: "\ea07";
+}
+
+.UI-stack-perspective-2::before {
+  content: "\ea08";
+}
+
+.UI-square-plus-2::before {
+  content: "\ea09";
+}
+
+.UI-square-minus-2::before {
+  content: "\ea0a";
+}
+
+.UI-square-dotted-arrow-bottom-right-2::before {
+  content: "\ea0b";
+}
+
+.UI-sliders-2::before {
+  content: "\ea0c";
+}
+
+.UI-progress-bar-2::before {
+  content: "\ea0d";
+}
+
+.UI-plus-2::before {
+  content: "\ea0e";
+}
+
+.UI-minus-2::before {
+  content: "\ea0f";
+}
+
+.UI-loader-2::before {
+  content: "\ea10";
+}
+
+.UI-layers-3-2::before {
+  content: "\ea11";
+}
+
+.UI-grid-circle-plus-2::before {
+  content: "\ea12";
+}
+
+.UI-gear-2-2::before {
+  content: "\ea13";
+}
+
+.UI-gauge-3-2::before {
+  content: "\ea14";
+}
+
+.UI-eye-open-2::before {
+  content: "\ea15";
+}
+
+.UI-eye-closed-2::before {
+  content: "\ea16";
+}
+
+.UI-circle-info-2::before {
+  content: "\ea17";
+}
+
+.UI-circle-half-dotted-check-2::before {
+  content: "\ea18";
+}
+
+.UI-check-2::before {
+  content: "\ea19";
+}
+
+.UI-anchor-2::before {
+  content: "\ea1a";
+}
+
+.UI-dark-light-2::before {
+  content: "\ea1b";
+}
+
+.UI-window-chart-line-2::before {
+  content: "\ea1c";
+}
+
+.UI-wallet-2-2::before {
+  content: "\ea1d";
+}
+
+.UI-vault-3-2::before {
+  content: "\ea1e";
+}
+
+.UI-target-2::before {
+  content: "\ea1f";
+}
+
+.UI-suitcase-3-2::before {
+  content: "\ea20";
+}
+
+.UI-sitemap-4-2::before {
+  content: "\ea21";
+}
+
+.UI-scale-2::before {
+  content: "\ea22";
+}
+
+.UI-puzzle-piece-2::before {
+  content: "\ea23";
+}
+
+.UI-presentation-screen-2::before {
+  content: "\ea24";
+}
+
+.UI-nodes-2::before {
+  content: "\ea25";
+}
+
+.UI-money-bill-coin-2::before {
+  content: "\ea26";
+}
+
+.UI-lightbulb-3-2::before {
+  content: "\ea27";
+}
+
+.UI-handshake-2::before {
+  content: "\ea28";
+}
+
+.UI-globe-pointer-2::before {
+  content: "\ea29";
+}
+
+.UI-gas-pump-2::before {
+  content: "\ea2a";
+}
+
+.UI-credit-card-2::before {
+  content: "\ea2b";
+}
+
+.UI-cryptography-2::before {
+  content: "\ea2c";
+}
+
+.UI-chair-4-2::before {
+  content: "\ea2d";
+}
+
+.UI-award-certificate-2::before {
+  content: "\ea2e";
+}
+
+.UI-award-2::before {
+  content: "\ea2f";
+}
+
+.UI-window-pointer-2::before {
+  content: "\ea30";
+}
+
+.UI-wand-sparkle-2::before {
+  content: "\ea31";
+}
+
+.UI-sticker-smile-2::before {
+  content: "\ea32";
+}
+
+.UI-sparkle-3-2::before {
+  content: "\ea33";
+}
+
+.UI-shapes-2::before {
+  content: "\ea34";
+}
+
+.UI-scribble-2::before {
+  content: "\ea35";
+}
+
+.UI-scissors-2::before {
+  content: "\ea36";
+}
+
+.UI-ruler-pen-2::before {
+  content: "\ea37";
+}
+
+.UI-plug-2-2::before {
+  content: "\ea38";
+}
+
+.UI-paintbrush-2::before {
+  content: "\ea39";
+}
+
+.UI-notification-2::before {
+  content: "\ea3a";
+}
+
+.UI-magic-wand-2::before {
+  content: "\ea3b";
+}
+
+.UI-hand-2::before {
+  content: "\ea3c";
+}
+
+.UI-draw-compass-2::before {
+  content: "\ea3d";
+}
+
+.UI-book-bookmark-2::before {
+  content: "\ea3e";
+}
+
+.UI-align-3-vertical-2::before {
+  content: "\ea3f";
+}
+
+.UI-align-3-top-2::before {
+  content: "\ea40";
+}
+
+.UI-align-3-right-2::before {
+  content: "\ea41";
+}
+
+.UI-align-3-horizontal-2::before {
+  content: "\ea42";
+}
+
+.UI-align-3-left-2::before {
+  content: "\ea43";
+}
+
+.UI-align-3-bottom-2::before {
+  content: "\ea44";
+}
+
+.UI-folder-2::before {
+  content: "\ea45";
+}
+
+.UI-inbox-arrow-down-2::before {
+  content: "\ea46";
+}
+
+.UI-folder-open-2::before {
+  content: "\ea47";
+}
+
+.UI-file-2::before {
+  content: "\ea48";
+}
+
+.UI-files-2-2::before {
+  content: "\ea49";
+}
+
+.UI-file-content-2::before {
+  content: "\ea4a";
+}
+
+.UI-desktop-arrow-down-2::before {
+  content: "\ea4b";
+}
+
+.UI-clipboard-2::before {
+  content: "\ea4c";
+}
+
+.UI-clipboard-slash-2::before {
+  content: "\ea4d";
+}
+
+.UI-clipboard-check-2::before {
+  content: "\ea4e";
+}
+
+.UI-box-archive-2::before {
+  content: "\ea4f";
+}
+
+.UI-watch-2::before {
+  content: "\ea50";
+}
+
+.UI-signal-2-2::before {
+  content: "\ea51";
+}
+
+.UI-satellite-2::before {
+  content: "\ea52";
+}
+
+.UI-print-2::before {
+  content: "\ea53";
+}
+
+.UI-phone-2::before {
+  content: "\ea54";
+}
+
+.UI-laptop-2::before {
+  content: "\ea55";
+}
+
+.UI-laptop-mobile-2::before {
+  content: "\ea56";
+}
+
+.UI-keyboard-2::before {
+  content: "\ea57";
+}
+
+.UI-computer-2::before {
+  content: "\ea58";
+}
+
+.UI-battery-2::before {
+  content: "\ea59";
+}
+
+.UI-battery-high-2::before {
+  content: "\ea5a";
+}
+
+.UI-pen-writing-6-2::before {
+  content: "\ea5b";
+}
+
+.UI-pen-writing-4-2::before {
+  content: "\ea5c";
+}
+
+.UI-pen-sparkle-2::before {
+  content: "\ea5d";
+}
+
+.UI-pen-nib-3-2::before {
+  content: "\ea5e";
+}
+
+.UI-pen-3-2::before {
+  content: "\ea5f";
+}
+
+.UI-paperclip-2::before {
+  content: "\ea60";
+}
+
+.UI-msgs-2::before {
+  content: "\ea61";
+}
+
+.UI-msg-writing-2::before {
+  content: "\ea62";
+}
+
+.UI-paper-plane-2-2::before {
+  content: "\ea63";
+}
+
+.UI-msg-smile-2::before {
+  content: "\ea64";
+}
+
+.UI-msg-bubble-user-2::before {
+  content: "\ea65";
+}
+
+.UI-feather-2::before {
+  content: "\ea66";
+}
+
+.UI-language-2::before {
+  content: "\ea67";
+}
+
+.UI-envelope-2::before {
+  content: "\ea68";
+}
+
+.UI-envelope-open-2::before {
+  content: "\ea69";
+}
+
+.UI-circle-compose-2-2::before {
+  content: "\ea6a";
+}
+
+.UI-at-sign-2::before {
+  content: "\ea6b";
+}
+
+.UI-volume-2::before {
+  content: "\ea6c";
+}
+
+.UI-volume-up-2::before {
+  content: "\ea6d";
+}
+
+.UI-music-note-sparkle-2::before {
+  content: "\ea6e";
+}
+
+.UI-microphone-2::before {
+  content: "\ea6f";
+}
+
+.UI-microphone-slash-2::before {
+  content: "\ea70";
+}
+
+.UI-bullhorn-2::before {
+  content: "\ea71";
+}
+
+.UI-video-2::before {
+  content: "\ea72";
+}
+
+.UI-images-2-2::before {
+  content: "\ea73";
+}
+
+.UI-image-2::before {
+  content: "\ea74";
+}
+
+.UI-image-sparkle-2::before {
+  content: "\ea75";
+}
+
+.UI-image-mountain-2::before {
+  content: "\ea76";
+}
+
+.UI-filters-2::before {
+  content: "\ea77";
+}
+
+.UI-half-dotted-circle-play-2::before {
+  content: "\ea78";
+}
+
+.UI-film-2::before {
+  content: "\ea79";
+}
+
+.UI-camera-3::before {
+  content: "\ea7a";
+}
+
+.UI-camera-2-2::before {
+  content: "\ea7b";
+}
+
+.UI-bolt-lightning-2::before {
+  content: "\ea7c";
+}
+
+.UI-pointer-2::before {
+  content: "\ea7d";
+}
+
+.UI-pin-tack-2::before {
+  content: "\ea7e";
+}
+
+.UI-map-2::before {
+  content: "\ea7f";
+}
+
+.UI-location-2-2::before {
+  content: "\ea80";
+}
+
+.UI-flag-7-2::before {
+  content: "\ea81";
+}
+
+.UI-earth-2::before {
+  content: "\ea82";
+}
+
+.UI-crosshairs-2::before {
+  content: "\ea83";
+}
+
+.UI-crosshairs-slash-2::before {
+  content: "\ea84";
+}
+
+.UI-users-2::before {
+  content: "\ea85";
+}
+
+.UI-user-2::before {
+  content: "\ea86";
+}
+
+.UI-user-search-2::before {
+  content: "\ea87";
+}
+
+.UI-user-laptop-2::before {
+  content: "\ea88";
+}
+
+.UI-side-profile-2::before {
+  content: "\ea89";
+}
+
+.UI-magnifier-2::before {
+  content: "\ea8a";
+}
+
+.UI-magnifier-face-worried-2::before {
+  content: "\ea8b";
+}
+
+.UI-filter-2::before {
+  content: "\ea8c";
+}
+
+.UI-cloud-2::before {
+  content: "\ea8d";
+}
+
+.UI-bolt-slash-2::before {
+  content: "\ea8e";
+}
+
+.UI-bolt-2::before {
+  content: "\ea8f";
+}
+
+.UI-office-2::before {
+  content: "\ea90";
+}
+
+.UI-industry-2::before {
+  content: "\ea91";
+}
+
+.UI-house-5-2::before {
+  content: "\ea92";
+}
+
+.UI-house-2-2::before {
+  content: "\ea93";
+}
+
+.UI-stopwatch-2::before {
+  content: "\ea94";
+}
+
+.UI-timer-2-2::before {
+  content: "\ea95";
+}
+
+.UI-calendar-2::before {
+  content: "\ea96";
+}
+
+.UI-calendar-days-2::before {
+  content: "\ea97";
+}
+
+.UI-bell-2::before {
+  content: "\ea98";
+}
+
+.UI-alarm-clock-2::before {
+  content: "\ea99";
+}
+
+.UI-graduation-cap-2::before {
+  content: "\ea9a";
+}
+
+.UI-book-open-2::before {
+  content: "\ea9b";
+}
+
+.UI-shop-2::before {
+  content: "\ea9c";
+}
+
+.UI-scissors-coupon-2-2::before {
+  content: "\ea9d";
+}
+
+.UI-life-ring-2::before {
+  content: "\ea9e";
+}
+
+.UI-headset-2::before {
+  content: "\ea9f";
+}
+
+.UI-gift-2::before {
+  content: "\eaa0";
+}
+
+.UI-forklift-2::before {
+  content: "\eaa1";
+}
+
+.UI-circle-hashtag-2::before {
+  content: "\eaa2";
+}
+
+.UI-cart-shopping-2::before {
+  content: "\eaa3";
+}
+
+.UI-box-2::before {
+  content: "\eaa4";
+}
+
+.UI-basket-shopping-2::before {
+  content: "\eaa5";
+}
+
+.UI-bag-shopping-2::before {
+  content: "\eaa6";
+}
+
+.UI-shield-check-2::before {
+  content: "\eaa7";
+}
+
+.UI-password-2-2::before {
+  content: "\eaa8";
+}
+
+.UI-lock-2::before {
+  content: "\eaa9";
+}
+
+.UI-lock-open-2-2::before {
+  content: "\eaaa";
+}
+
+.UI-fingerprint-2::before {
+  content: "\eaab";
+}
+
+.UI-facial-recognition-2::before {
+  content: "\eaac";
+}
+
+.UI-ticket-4-2::before {
+  content: "\eaad";
+}
+
+.UI-bicycle-2::before {
+  content: "\eaae";
+}
+
+.UI-ball-basket-2::before {
+  content: "\eaaf";
+}
+
+.UI-ufo-2::before {
+  content: "\eab0";
+}
+
+.UI-rocket-2::before {
+  content: "\eab1";
+}
+
+.UI-gaming-buttons-2::before {
+  content: "\eab2";
+}
+
+.UI-gem-sparkle-2::before {
+  content: "\eab3";
+}
+
+.UI-gamepad-2::before {
+  content: "\eab4";
+}
+
+.UI-pizza-slice-2-2::before {
+  content: "\eab5";
+}
+
+.UI-hot-drink-2::before {
+  content: "\eab6";
+}
+
+.UI-cookie-2::before {
+  content: "\eab7";
+}
+
+.UI-thumbs-up-2::before {
+  content: "\eab8";
+}
+
+.UI-face-smile-2-2::before {
+  content: "\eab9";
+}
+
+.UI-face-plus-2::before {
+  content: "\eaba";
+}
+
+.UI-unordered-list-2::before {
+  content: "\eabb";
+}
+
+.UI-text-tool-2-2::before {
+  content: "\eabc";
+}
+
+.UI-text-highlight-2::before {
+  content: "\eabd";
+}
+
+.UI-ordered-list-2::before {
+  content: "\eabe";
+}
+
+.UI-link-2::before {
+  content: "\eabf";
+}
+
+.UI-arrow-dotted-rotate-anticlockwise-2::before {
+  content: "\eac0";
+}
+
+.UI-chart-bar-trend-up-2::before {
+  content: "\eac1";
+}
+
+.UI-tags-2::before {
+  content: "\eac2";
+}
+
+.UI-tag-2::before {
+  content: "\eac3";
+}
+
+.UI-star-2::before {
+  content: "\eac4";
+}
+
+.UI-star-sparkle-2::before {
+  content: "\eac5";
+}
+
+.UI-roadmap-2::before {
+  content: "\eac6";
+}
+
+.UI-heart-2::before {
+  content: "\eac7";
+}
+
+.UI-heart-hand-2::before {
+  content: "\eac8";
+}
+
+.UI-bookmarks-2::before {
+  content: "\eac9";
+}
+
+.UI-bookmark-slash-2::before {
+  content: "\eaca";
+}
+
+.UI-bookmark-2::before {
+  content: "\eacb";
+}
+
+.UI-subscription-2-2::before {
+  content: "\eacc";
+}
+
+.UI-refresh-2-2::before {
+  content: "\eacd";
+}
+
+.UI-descending-sorting-2::before {
+  content: "\eace";
+}
+
+.UI-chevron-up-2::before {
+  content: "\eacf";
+}
+
+.UI-chevron-right-2::before {
+  content: "\ead0";
+}
+
+.UI-chevron-left-2::before {
+  content: "\ead1";
+}
+
+.UI-chevron-expand-y-2::before {
+  content: "\ead2";
+}
+
+.UI-chevron-down-2::before {
+  content: "\ead3";
+}
+
+.UI-aspect-ratio-square-2-2::before {
+  content: "\ead4";
+}
+
+.UI-arrow-door-out-3-2::before {
+  content: "\ead5";
+}
+
+.UI-arrow-door-in-2::before {
+  content: "\ead6";
+}
+
+.UI-rotation-360-2::before {
+  content: "\ead7";
+}
+
+.UI-image-depth-2::before {
+  content: "\ead8";
+}
+
+.UI-leaf-2::before {
+  content: "\ead9";
+}
+
+.UI-flame-2::before {
+  content: "\eada";
+}
+
+.UI-bug-2::before {
+  content: "\eadb";
+}
+
+.UI-bug-slash-2::before {
+  content: "\eadc";
+}
+
+.UI-accessibility-2::before {
+  content: "\eadd";
+}
+
+.UI-accessibility-1::before {
+  content: "\eade";
+}
+
+.UI-bug-slash-1::before {
+  content: "\eadf";
+}
+
+.UI-bug-1::before {
+  content: "\eae0";
+}
+
+.UI-flame-1::before {
+  content: "\eae1";
+}
+
+.UI-leaf-1::before {
+  content: "\eae2";
+}
+
+.UI-image-depth-1::before {
+  content: "\eae3";
+}
+
+.UI-rotation-360-1::before {
+  content: "\eae4";
+}
+
+.UI-arrow-door-in-1::before {
+  content: "\eae5";
+}
+
+.UI-arrow-door-out-3-1::before {
+  content: "\eae6";
+}
+
+.UI-arrow-dotted-rotate-anticlockwise-1::before {
+  content: "\eae7";
+}
+
+.UI-aspect-ratio-square-2-1::before {
+  content: "\eae8";
+}
+
+.UI-chevron-down-1::before {
+  content: "\eae9";
+}
+
+.UI-chevron-expand-y-1::before {
+  content: "\eaea";
+}
+
+.UI-chevron-left-1::before {
+  content: "\eaeb";
+}
+
+.UI-chevron-right-1::before {
+  content: "\eaec";
+}
+
+.UI-chevron-up-1::before {
+  content: "\eaed";
+}
+
+.UI-descending-sorting-1::before {
+  content: "\eaee";
+}
+
+.UI-refresh-2-1::before {
+  content: "\eaef";
+}
+
+.UI-subscription-2-1::before {
+  content: "\eaf0";
+}
+
+.UI-bookmark-slash-1::before {
+  content: "\eaf1";
+}
+
+.UI-bookmark-1::before {
+  content: "\eaf2";
+}
+
+.UI-bookmarks-1::before {
+  content: "\eaf3";
+}
+
+.UI-heart-hand-1::before {
+  content: "\eaf4";
+}
+
+.UI-heart-1::before {
+  content: "\eaf5";
+}
+
+.UI-roadmap-1::before {
+  content: "\eaf6";
+}
+
+.UI-star-sparkle-1::before {
+  content: "\eaf7";
+}
+
+.UI-star-1::before {
+  content: "\eaf8";
+}
+
+.UI-tags-1::before {
+  content: "\eaf9";
+}
+
+.UI-tag-1::before {
+  content: "\eafa";
+}
+
+.UI-chart-bar-trend-up-1::before {
+  content: "\eafb";
+}
+
+.UI-link-1::before {
+  content: "\eafc";
+}
+
+.UI-ordered-list-1::before {
+  content: "\eafd";
+}
+
+.UI-text-highlight-1::before {
+  content: "\eafe";
+}
+
+.UI-text-tool-2-1::before {
+  content: "\eaff";
+}
+
+.UI-unordered-list-1::before {
+  content: "\eb00";
+}
+
+.UI-face-plus-1::before {
+  content: "\eb01";
+}
+
+.UI-face-smile-2-1::before {
+  content: "\eb02";
+}
+
+.UI-thumbs-up-1::before {
+  content: "\eb03";
+}
+
+.UI-cookie-1::before {
+  content: "\eb04";
+}
+
+.UI-hot-drink-1::before {
+  content: "\eb05";
+}
+
+.UI-pizza-slice-2-1::before {
+  content: "\eb06";
+}
+
+.UI-gamepad-1::before {
+  content: "\eb07";
+}
+
+.UI-gaming-buttons-1::before {
+  content: "\eb08";
+}
+
+.UI-gem-sparkle-1::before {
+  content: "\eb09";
+}
+
+.UI-rocket-1::before {
+  content: "\eb0a";
+}
+
+.UI-ufo-1::before {
+  content: "\eb0b";
+}
+
+.UI-ball-basket-1::before {
+  content: "\eb0c";
+}
+
+.UI-bicycle-1::before {
+  content: "\eb0d";
+}
+
+.UI-ticket-4-1::before {
+  content: "\eb0e";
+}
+
+.UI-facial-recognition-1::before {
+  content: "\eb0f";
+}
+
+.UI-fingerprint-1::before {
+  content: "\eb10";
+}
+
+.UI-lock-open-2-1::before {
+  content: "\eb11";
+}
+
+.UI-lock-1::before {
+  content: "\eb12";
+}
+
+.UI-password-2-1::before {
+  content: "\eb13";
+}
+
+.UI-shield-check-1::before {
+  content: "\eb14";
+}
+
+.UI-bag-shopping-1::before {
+  content: "\eb15";
+}
+
+.UI-basket-shopping-1::before {
+  content: "\eb16";
+}
+
+.UI-box-1::before {
+  content: "\eb17";
+}
+
+.UI-circle-hashtag-1::before {
+  content: "\eb18";
+}
+
+.UI-cart-shopping-1::before {
+  content: "\eb19";
+}
+
+.UI-forklift-1::before {
+  content: "\eb1a";
+}
+
+.UI-gift-1::before {
+  content: "\eb1b";
+}
+
+.UI-headset-1::before {
+  content: "\eb1c";
+}
+
+.UI-life-ring-1::before {
+  content: "\eb1d";
+}
+
+.UI-shop-1::before {
+  content: "\eb1e";
+}
+
+.UI-scissors-coupon-2-1::before {
+  content: "\eb1f";
+}
+
+.UI-book-open-1::before {
+  content: "\eb20";
+}
+
+.UI-graduation-cap-1::before {
+  content: "\eb21";
+}
+
+.UI-alarm-clock-1::before {
+  content: "\eb22";
+}
+
+.UI-bell-1::before {
+  content: "\eb23";
+}
+
+.UI-calendar-days-1::before {
+  content: "\eb24";
+}
+
+.UI-calendar-1::before {
+  content: "\eb25";
+}
+
+.UI-stopwatch-1::before {
+  content: "\eb26";
+}
+
+.UI-timer-2-1::before {
+  content: "\eb27";
+}
+
+.UI-house-2-1::before {
+  content: "\eb28";
+}
+
+.UI-house-5-1::before {
+  content: "\eb29";
+}
+
+.UI-industry-1::before {
+  content: "\eb2a";
+}
+
+.UI-office-1::before {
+  content: "\eb2b";
+}
+
+.UI-bolt-slash-1::before {
+  content: "\eb2c";
+}
+
+.UI-bolt-1::before {
+  content: "\eb2d";
+}
+
+.UI-cloud-1::before {
+  content: "\eb2e";
+}
+
+.UI-filter-1::before {
+  content: "\eb2f";
+}
+
+.UI-magnifier-face-worried-1::before {
+  content: "\eb30";
+}
+
+.UI-magnifier-1::before {
+  content: "\eb31";
+}
+
+.UI-side-profile-1::before {
+  content: "\eb32";
+}
+
+.UI-user-laptop-1::before {
+  content: "\eb33";
+}
+
+.UI-user-search-1::before {
+  content: "\eb34";
+}
+
+.UI-user-1::before {
+  content: "\eb35";
+}
+
+.UI-users-1::before {
+  content: "\eb36";
+}
+
+.UI-crosshairs-1::before {
+  content: "\eb37";
+}
+
+.UI-crosshairs-slash-1::before {
+  content: "\eb38";
+}
+
+.UI-earth-1::before {
+  content: "\eb39";
+}
+
+.UI-flag-7-1::before {
+  content: "\eb3a";
+}
+
+.UI-location-2-1::before {
+  content: "\eb3b";
+}
+
+.UI-map-1::before {
+  content: "\eb3c";
+}
+
+.UI-pin-tack-1::before {
+  content: "\eb3d";
+}
+
+.UI-pointer-1::before {
+  content: "\eb3e";
+}
+
+.UI-bolt-lightning-1::before {
+  content: "\eb3f";
+}
+
+.UI-camera-2-1::before {
+  content: "\eb40";
+}
+
+.UI-camera-1::before {
+  content: "\eb41";
+}
+
+.UI-film-1::before {
+  content: "\eb42";
+}
+
+.UI-filters-1::before {
+  content: "\eb43";
+}
+
+.UI-half-dotted-circle-play-1::before {
+  content: "\eb44";
+}
+
+.UI-image-mountain-1::before {
+  content: "\eb45";
+}
+
+.UI-image-sparkle-1::before {
+  content: "\eb46";
+}
+
+.UI-image-1::before {
+  content: "\eb47";
+}
+
+.UI-images-2-1::before {
+  content: "\eb48";
+}
+
+.UI-video-1::before {
+  content: "\eb49";
+}
+
+.UI-bullhorn-1::before {
+  content: "\eb4a";
+}
+
+.UI-microphone-slash-1::before {
+  content: "\eb4b";
+}
+
+.UI-microphone-1::before {
+  content: "\eb4c";
+}
+
+.UI-music-note-sparkle-1::before {
+  content: "\eb4d";
+}
+
+.UI-volume-up-1::before {
+  content: "\eb4e";
+}
+
+.UI-volume-1::before {
+  content: "\eb4f";
+}
+
+.UI-at-sign-1::before {
+  content: "\eb50";
+}
+
+.UI-circle-compose-2-1::before {
+  content: "\eb51";
+}
+
+.UI-envelope-open-1::before {
+  content: "\eb52";
+}
+
+.UI-envelope-1::before {
+  content: "\eb53";
+}
+
+.UI-language-1::before {
+  content: "\eb54";
+}
+
+.UI-feather-1::before {
+  content: "\eb55";
+}
+
+.UI-msg-bubble-user-1::before {
+  content: "\eb56";
+}
+
+.UI-msg-smile-1::before {
+  content: "\eb57";
+}
+
+.UI-msg-writing-1::before {
+  content: "\eb58";
+}
+
+.UI-paper-plane-2-1::before {
+  content: "\eb59";
+}
+
+.UI-msgs-1::before {
+  content: "\eb5a";
+}
+
+.UI-paperclip-1::before {
+  content: "\eb5b";
+}
+
+.UI-pen-3-1::before {
+  content: "\eb5c";
+}
+
+.UI-pen-nib-3-1::before {
+  content: "\eb5d";
+}
+
+.UI-pen-sparkle-1::before {
+  content: "\eb5e";
+}
+
+.UI-pen-writing-4-1::before {
+  content: "\eb5f";
+}
+
+.UI-pen-writing-6-1::before {
+  content: "\eb60";
+}
+
+.UI-battery-high-1::before {
+  content: "\eb61";
+}
+
+.UI-battery-1::before {
+  content: "\eb62";
+}
+
+.UI-computer-1::before {
+  content: "\eb63";
+}
+
+.UI-keyboard-1::before {
+  content: "\eb64";
+}
+
+.UI-laptop-mobile-1::before {
+  content: "\eb65";
+}
+
+.UI-laptop-1::before {
+  content: "\eb66";
+}
+
+.UI-phone-1::before {
+  content: "\eb67";
+}
+
+.UI-print-1::before {
+  content: "\eb68";
+}
+
+.UI-satellite-1::before {
+  content: "\eb69";
+}
+
+.UI-signal-2-1::before {
+  content: "\eb6a";
+}
+
+.UI-watch-1::before {
+  content: "\eb6b";
+}
+
+.UI-box-archive-1::before {
+  content: "\eb6c";
+}
+
+.UI-clipboard-check-1::before {
+  content: "\eb6d";
+}
+
+.UI-clipboard-slash-1::before {
+  content: "\eb6e";
+}
+
+.UI-clipboard-1::before {
+  content: "\eb6f";
+}
+
+.UI-desktop-arrow-down-1::before {
+  content: "\eb70";
+}
+
+.UI-file-content-1::before {
+  content: "\eb71";
+}
+
+.UI-file-1::before {
+  content: "\eb72";
+}
+
+.UI-files-2-1::before {
+  content: "\eb73";
+}
+
+.UI-folder-open-1::before {
+  content: "\eb74";
+}
+
+.UI-folder-1::before {
+  content: "\eb75";
+}
+
+.UI-inbox-arrow-down-1::before {
+  content: "\eb76";
+}
+
+.UI-align-3-bottom-1::before {
+  content: "\eb77";
+}
+
+.UI-align-3-horizontal-1::before {
+  content: "\eb78";
+}
+
+.UI-align-3-left-1::before {
+  content: "\eb79";
+}
+
+.UI-align-3-top-1::before {
+  content: "\eb7a";
+}
+
+.UI-align-3-right-1::before {
+  content: "\eb7b";
+}
+
+.UI-align-3-vertical-1::before {
+  content: "\eb7c";
+}
+
+.UI-book-bookmark-1::before {
+  content: "\eb7d";
+}
+
+.UI-draw-compass-1::before {
+  content: "\eb7e";
+}
+
+.UI-hand-1::before {
+  content: "\eb7f";
+}
+
+.UI-magic-wand-1::before {
+  content: "\eb80";
+}
+
+.UI-notification-1::before {
+  content: "\eb81";
+}
+
+.UI-paintbrush-1::before {
+  content: "\eb82";
+}
+
+.UI-plug-2-1::before {
+  content: "\eb83";
+}
+
+.UI-ruler-pen-1::before {
+  content: "\eb84";
+}
+
+.UI-scissors-1::before {
+  content: "\eb85";
+}
+
+.UI-scribble-1::before {
+  content: "\eb86";
+}
+
+.UI-shapes-1::before {
+  content: "\eb87";
+}
+
+.UI-sparkle-3-1::before {
+  content: "\eb88";
+}
+
+.UI-sticker-smile-1::before {
+  content: "\eb89";
+}
+
+.UI-wand-sparkle-1::before {
+  content: "\eb8a";
+}
+
+.UI-window-pointer-1::before {
+  content: "\eb8b";
+}
+
+.UI-award-certificate-1::before {
+  content: "\eb8c";
+}
+
+.UI-award-1::before {
+  content: "\eb8d";
+}
+
+.UI-chair-4-1::before {
+  content: "\eb8e";
+}
+
+.UI-credit-card-1::before {
+  content: "\eb8f";
+}
+
+.UI-gas-pump-1::before {
+  content: "\eb90";
+}
+
+.UI-cryptography-1::before {
+  content: "\eb91";
+}
+
+.UI-globe-pointer-1::before {
+  content: "\eb92";
+}
+
+.UI-handshake-1::before {
+  content: "\eb93";
+}
+
+.UI-lightbulb-3-1::before {
+  content: "\eb94";
+}
+
+.UI-money-bill-coin-1::before {
+  content: "\eb95";
+}
+
+.UI-nodes-1::before {
+  content: "\eb96";
+}
+
+.UI-presentation-screen-1::before {
+  content: "\eb97";
+}
+
+.UI-puzzle-piece-1::before {
+  content: "\eb98";
+}
+
+.UI-scale-1::before {
+  content: "\eb99";
+}
+
+.UI-sitemap-4-1::before {
+  content: "\eb9a";
+}
+
+.UI-suitcase-3-1::before {
+  content: "\eb9b";
+}
+
+.UI-target-1::before {
+  content: "\eb9c";
+}
+
+.UI-vault-3-1::before {
+  content: "\eb9d";
+}
+
+.UI-wallet-2-1::before {
+  content: "\eb9e";
+}
+
+.UI-window-chart-line-1::before {
+  content: "\eb9f";
+}
+
+.UI-dark-light-1::before {
+  content: "\eba0";
+}
+
+.UI-anchor-1::before {
+  content: "\eba1";
+}
+
+.UI-check-1::before {
+  content: "\eba2";
+}
+
+.UI-circle-info-1::before {
+  content: "\eba3";
+}
+
+.UI-circle-half-dotted-check-1::before {
+  content: "\eba4";
+}
+
+.UI-eye-closed-1::before {
+  content: "\eba5";
+}
+
+.UI-eye-open-1::before {
+  content: "\eba6";
+}
+
+.UI-gauge-3-1::before {
+  content: "\eba7";
+}
+
+.UI-gear-2-1::before {
+  content: "\eba8";
+}
+
+.UI-grid-circle-plus-1::before {
+  content: "\eba9";
+}
+
+.UI-layers-3-1::before {
+  content: "\ebaa";
+}
+
+.UI-loader-1::before {
+  content: "\ebab";
+}
+
+.UI-minus-1::before {
+  content: "\ebac";
+}
+
+.UI-plus-1::before {
+  content: "\ebad";
+}
+
+.UI-progress-bar-1::before {
+  content: "\ebae";
+}
+
+.UI-sliders-1::before {
+  content: "\ebaf";
+}
+
+.UI-square-dotted-arrow-bottom-right-1::before {
+  content: "\ebb0";
+}
+
+.UI-square-minus-1::before {
+  content: "\ebb1";
+}
+
+.UI-square-plus-1::before {
+  content: "\ebb2";
+}
+
+.UI-stack-perspective-1::before {
+  content: "\ebb3";
+}
+
+.UI-tasks-2-1::before {
+  content: "\ebb4";
+}
+
+.UI-toggle-3-1::before {
+  content: "\ebb5";
+}
+
+.UI-trash-1::before {
+  content: "\ebb6";
+}
+
+.UI-triangle-warning-1::before {
+  content: "\ebb7";
+}
+
+.UI-window-expand-bottom-right-1::before {
+  content: "\ebb8";
+}
+
+.UI-xmark-1::before {
+  content: "\ebb9";
+}

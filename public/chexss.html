@@ -2,11 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chexss</title>
 
     <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-storage-compat.js"></script>
 
     <link rel="stylesheet" type="text/css" href="icons.css">
 
@@ -21,14 +23,14 @@
         justify-content: center;
       }
 
-      #board { 
+      .board { 
         height: 100vmin;
         width: 100vmin;
         display: flex;
         flex-wrap: wrap;
       }
 
-      .square { 
+      .tile, .square   { 
         width: 12.5vmin;
         height: 12.5vmin;
         display: flex;
@@ -56,7 +58,7 @@
     </style>
   </head>
   <body>
-    <div class="board" id="AA" hidden>
+    <div class="board" id="AA">
       <div class="line" id="A">
         <div class="square "id="A1"></div>
         <div class="square "id="A2"></div>
@@ -139,7 +141,7 @@
       </div>
     </div>
     
-    <div id="b1" hidden>
+    <div id="b1">
       <div class="tile white" id="81"><div class="piece black-rook" id="f81"></div></div>
       <div class="tile black" id="82"><div class="piece black-knight" id="f82"></div></div>
       <div class="tile white" id="83"><div class="piece black-bishop" id="f83"></div></div>
@@ -206,36 +208,35 @@
       <div class="tile white" id="18"><div class="piece white-rook" id="f18"></div></div>
     </div>
     <script id="b1script">
-        //make a board #1
-      // const board = document.getElementById('board')
-      // var moves = ''
-      // var selected_piece = null
 
-      // const tiles = document.querySelectorAll('.tile')
-      // tiles.forEach(tile => {
-      //   tile.addEventListener('click', (event) => {
-      //     console.log(event.target)
-      //     event.target.draggable = true
-      //     event.target.addEventListener('ondrag', (drag) => {
-      //       //move the figure
-      //       event.target.style.transform = `translate(${drag.x}, ${drag.y})`
-      //     })
-      //     selectOrMove(event)
-      //   })
-      // })
+      const board = document.getElementById('board')
+      var moves = ''
+      var selected_piece = null
 
-      // function selectOrMove(event) {
-      //   let tile = event.target
-      //   selected_piece ? move(tile) : select(tile)
-      // }
+      const tiles = document.querySelectorAll('.tile')
+      tiles.forEach(tile => {
+        tile.addEventListener('click', (event) => {
+          console.log(event.target)
+          event.target.draggable = true
+          event.target.addEventListener('ondrag', (drag) => {
+            //move the figure
+            event.target.style.transform = `translate(${drag.x}, ${drag.y})`
+          })
+          selectOrMove(event)
+        })
+      })
 
-      // function select(tile) { selected_piece = tile }
+      function selectOrMove(event) {
+        let tile = event.target
+        selected_piece ? move(tile) : select(tile)
+      }
 
-      // function move(tile) {
-      //   tile.append(selected_piece)
-      //   selected_piece = null
-      //   moves +
-      // }
+      function select(tile) { selected_piece = tile }
+
+      function move(tile) {
+        tile.append(selected_piece)
+        selected_piece = null
+      }
     </script>
   </body>
 </html>

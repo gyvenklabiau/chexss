@@ -1,0 +1,2284 @@
+/*--------------------------------
+
+UI icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+
+@-font-path: "../fonts";
+
+@font-face {
+  font-family: 'UI';
+  src: url('@{-font-path}/UI.eot');
+  src: url('@{-font-path}/UI.eot') format('embedded-opentype'),
+       url('@{-font-path}/UI.woff2') format('woff2'),
+       url('@{-font-path}/UI.woff') format('woff'),
+       url('@{-font-path}/UI.ttf') format('truetype'),
+       url('@{-font-path}/UI.svg') format('svg');
+}
+
+/* base class */
+.ui {
+  display: inline-block;
+  font: normal normal normal 1em/1 'UI';
+  color: inherit;
+  flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.ui-sm {
+	font-size: 0.8em;
+}
+
+.ui-lg {
+  font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.ui-16 {
+  font-size: 16px;
+}
+
+.ui-32 {
+  font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.ui-is-spinning {
+  animation: ui-spin 1s infinite linear;
+}
+
+@keyframes ui-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* transform */
+.ui-rotate-90  {
+	transform: rotate(90deg);
+}
+
+.ui-rotate-180 {
+	transform: rotate(180deg);
+}
+
+.ui-rotate-270 {
+	transform: rotate(270deg);
+}
+
+.ui-flip-y {
+	transform: scaleY(-1);
+}
+
+.ui-flip-x {
+	transform: scaleX(-1);
+}
+
+/* icons */
+@UI-xmark-2: "\ea02";
+@UI-window-expand-bottom-right-2: "\ea03";
+@UI-trash-2: "\ea04";
+@UI-triangle-warning-2: "\ea05";
+@UI-toggle-3-2: "\ea06";
+@UI-tasks-2-2: "\ea07";
+@UI-stack-perspective-2: "\ea08";
+@UI-square-plus-2: "\ea09";
+@UI-square-minus-2: "\ea0a";
+@UI-square-dotted-arrow-bottom-right-2: "\ea0b";
+@UI-sliders-2: "\ea0c";
+@UI-progress-bar-2: "\ea0d";
+@UI-plus-2: "\ea0e";
+@UI-minus-2: "\ea0f";
+@UI-loader-2: "\ea10";
+@UI-layers-3-2: "\ea11";
+@UI-grid-circle-plus-2: "\ea12";
+@UI-gear-2-2: "\ea13";
+@UI-gauge-3-2: "\ea14";
+@UI-eye-open-2: "\ea15";
+@UI-eye-closed-2: "\ea16";
+@UI-circle-info-2: "\ea17";
+@UI-circle-half-dotted-check-2: "\ea18";
+@UI-check-2: "\ea19";
+@UI-anchor-2: "\ea1a";
+@UI-dark-light-2: "\ea1b";
+@UI-window-chart-line-2: "\ea1c";
+@UI-wallet-2-2: "\ea1d";
+@UI-vault-3-2: "\ea1e";
+@UI-target-2: "\ea1f";
+@UI-suitcase-3-2: "\ea20";
+@UI-sitemap-4-2: "\ea21";
+@UI-scale-2: "\ea22";
+@UI-puzzle-piece-2: "\ea23";
+@UI-presentation-screen-2: "\ea24";
+@UI-nodes-2: "\ea25";
+@UI-money-bill-coin-2: "\ea26";
+@UI-lightbulb-3-2: "\ea27";
+@UI-handshake-2: "\ea28";
+@UI-globe-pointer-2: "\ea29";
+@UI-gas-pump-2: "\ea2a";
+@UI-credit-card-2: "\ea2b";
+@UI-cryptography-2: "\ea2c";
+@UI-chair-4-2: "\ea2d";
+@UI-award-certificate-2: "\ea2e";
+@UI-award-2: "\ea2f";
+@UI-window-pointer-2: "\ea30";
+@UI-wand-sparkle-2: "\ea31";
+@UI-sticker-smile-2: "\ea32";
+@UI-sparkle-3-2: "\ea33";
+@UI-shapes-2: "\ea34";
+@UI-scribble-2: "\ea35";
+@UI-scissors-2: "\ea36";
+@UI-ruler-pen-2: "\ea37";
+@UI-plug-2-2: "\ea38";
+@UI-paintbrush-2: "\ea39";
+@UI-notification-2: "\ea3a";
+@UI-magic-wand-2: "\ea3b";
+@UI-hand-2: "\ea3c";
+@UI-draw-compass-2: "\ea3d";
+@UI-book-bookmark-2: "\ea3e";
+@UI-align-3-vertical-2: "\ea3f";
+@UI-align-3-top-2: "\ea40";
+@UI-align-3-right-2: "\ea41";
+@UI-align-3-horizontal-2: "\ea42";
+@UI-align-3-left-2: "\ea43";
+@UI-align-3-bottom-2: "\ea44";
+@UI-folder-2: "\ea45";
+@UI-inbox-arrow-down-2: "\ea46";
+@UI-folder-open-2: "\ea47";
+@UI-file-2: "\ea48";
+@UI-files-2-2: "\ea49";
+@UI-file-content-2: "\ea4a";
+@UI-desktop-arrow-down-2: "\ea4b";
+@UI-clipboard-2: "\ea4c";
+@UI-clipboard-slash-2: "\ea4d";
+@UI-clipboard-check-2: "\ea4e";
+@UI-box-archive-2: "\ea4f";
+@UI-watch-2: "\ea50";
+@UI-signal-2-2: "\ea51";
+@UI-satellite-2: "\ea52";
+@UI-print-2: "\ea53";
+@UI-phone-2: "\ea54";
+@UI-laptop-2: "\ea55";
+@UI-laptop-mobile-2: "\ea56";
+@UI-keyboard-2: "\ea57";
+@UI-computer-2: "\ea58";
+@UI-battery-2: "\ea59";
+@UI-battery-high-2: "\ea5a";
+@UI-pen-writing-6-2: "\ea5b";
+@UI-pen-writing-4-2: "\ea5c";
+@UI-pen-sparkle-2: "\ea5d";
+@UI-pen-nib-3-2: "\ea5e";
+@UI-pen-3-2: "\ea5f";
+@UI-paperclip-2: "\ea60";
+@UI-msgs-2: "\ea61";
+@UI-msg-writing-2: "\ea62";
+@UI-paper-plane-2-2: "\ea63";
+@UI-msg-smile-2: "\ea64";
+@UI-msg-bubble-user-2: "\ea65";
+@UI-feather-2: "\ea66";
+@UI-language-2: "\ea67";
+@UI-envelope-2: "\ea68";
+@UI-envelope-open-2: "\ea69";
+@UI-circle-compose-2-2: "\ea6a";
+@UI-at-sign-2: "\ea6b";
+@UI-volume-2: "\ea6c";
+@UI-volume-up-2: "\ea6d";
+@UI-music-note-sparkle-2: "\ea6e";
+@UI-microphone-2: "\ea6f";
+@UI-microphone-slash-2: "\ea70";
+@UI-bullhorn-2: "\ea71";
+@UI-video-2: "\ea72";
+@UI-images-2-2: "\ea73";
+@UI-image-2: "\ea74";
+@UI-image-sparkle-2: "\ea75";
+@UI-image-mountain-2: "\ea76";
+@UI-filters-2: "\ea77";
+@UI-half-dotted-circle-play-2: "\ea78";
+@UI-film-2: "\ea79";
+@UI-camera-3: "\ea7a";
+@UI-camera-2-2: "\ea7b";
+@UI-bolt-lightning-2: "\ea7c";
+@UI-pointer-2: "\ea7d";
+@UI-pin-tack-2: "\ea7e";
+@UI-map-2: "\ea7f";
+@UI-location-2-2: "\ea80";
+@UI-flag-7-2: "\ea81";
+@UI-earth-2: "\ea82";
+@UI-crosshairs-2: "\ea83";
+@UI-crosshairs-slash-2: "\ea84";
+@UI-users-2: "\ea85";
+@UI-user-2: "\ea86";
+@UI-user-search-2: "\ea87";
+@UI-user-laptop-2: "\ea88";
+@UI-side-profile-2: "\ea89";
+@UI-magnifier-2: "\ea8a";
+@UI-magnifier-face-worried-2: "\ea8b";
+@UI-filter-2: "\ea8c";
+@UI-cloud-2: "\ea8d";
+@UI-bolt-slash-2: "\ea8e";
+@UI-bolt-2: "\ea8f";
+@UI-office-2: "\ea90";
+@UI-industry-2: "\ea91";
+@UI-house-5-2: "\ea92";
+@UI-house-2-2: "\ea93";
+@UI-stopwatch-2: "\ea94";
+@UI-timer-2-2: "\ea95";
+@UI-calendar-2: "\ea96";
+@UI-calendar-days-2: "\ea97";
+@UI-bell-2: "\ea98";
+@UI-alarm-clock-2: "\ea99";
+@UI-graduation-cap-2: "\ea9a";
+@UI-book-open-2: "\ea9b";
+@UI-shop-2: "\ea9c";
+@UI-scissors-coupon-2-2: "\ea9d";
+@UI-life-ring-2: "\ea9e";
+@UI-headset-2: "\ea9f";
+@UI-gift-2: "\eaa0";
+@UI-forklift-2: "\eaa1";
+@UI-circle-hashtag-2: "\eaa2";
+@UI-cart-shopping-2: "\eaa3";
+@UI-box-2: "\eaa4";
+@UI-basket-shopping-2: "\eaa5";
+@UI-bag-shopping-2: "\eaa6";
+@UI-shield-check-2: "\eaa7";
+@UI-password-2-2: "\eaa8";
+@UI-lock-2: "\eaa9";
+@UI-lock-open-2-2: "\eaaa";
+@UI-fingerprint-2: "\eaab";
+@UI-facial-recognition-2: "\eaac";
+@UI-ticket-4-2: "\eaad";
+@UI-bicycle-2: "\eaae";
+@UI-ball-basket-2: "\eaaf";
+@UI-ufo-2: "\eab0";
+@UI-rocket-2: "\eab1";
+@UI-gaming-buttons-2: "\eab2";
+@UI-gem-sparkle-2: "\eab3";
+@UI-gamepad-2: "\eab4";
+@UI-pizza-slice-2-2: "\eab5";
+@UI-hot-drink-2: "\eab6";
+@UI-cookie-2: "\eab7";
+@UI-thumbs-up-2: "\eab8";
+@UI-face-smile-2-2: "\eab9";
+@UI-face-plus-2: "\eaba";
+@UI-unordered-list-2: "\eabb";
+@UI-text-tool-2-2: "\eabc";
+@UI-text-highlight-2: "\eabd";
+@UI-ordered-list-2: "\eabe";
+@UI-link-2: "\eabf";
+@UI-arrow-dotted-rotate-anticlockwise-2: "\eac0";
+@UI-chart-bar-trend-up-2: "\eac1";
+@UI-tags-2: "\eac2";
+@UI-tag-2: "\eac3";
+@UI-star-2: "\eac4";
+@UI-star-sparkle-2: "\eac5";
+@UI-roadmap-2: "\eac6";
+@UI-heart-2: "\eac7";
+@UI-heart-hand-2: "\eac8";
+@UI-bookmarks-2: "\eac9";
+@UI-bookmark-slash-2: "\eaca";
+@UI-bookmark-2: "\eacb";
+@UI-subscription-2-2: "\eacc";
+@UI-refresh-2-2: "\eacd";
+@UI-descending-sorting-2: "\eace";
+@UI-chevron-up-2: "\eacf";
+@UI-chevron-right-2: "\ead0";
+@UI-chevron-left-2: "\ead1";
+@UI-chevron-expand-y-2: "\ead2";
+@UI-chevron-down-2: "\ead3";
+@UI-aspect-ratio-square-2-2: "\ead4";
+@UI-arrow-door-out-3-2: "\ead5";
+@UI-arrow-door-in-2: "\ead6";
+@UI-rotation-360-2: "\ead7";
+@UI-image-depth-2: "\ead8";
+@UI-leaf-2: "\ead9";
+@UI-flame-2: "\eada";
+@UI-bug-2: "\eadb";
+@UI-bug-slash-2: "\eadc";
+@UI-accessibility-2: "\eadd";
+@UI-accessibility-1: "\eade";
+@UI-bug-slash-1: "\eadf";
+@UI-bug-1: "\eae0";
+@UI-flame-1: "\eae1";
+@UI-leaf-1: "\eae2";
+@UI-image-depth-1: "\eae3";
+@UI-rotation-360-1: "\eae4";
+@UI-arrow-door-in-1: "\eae5";
+@UI-arrow-door-out-3-1: "\eae6";
+@UI-arrow-dotted-rotate-anticlockwise-1: "\eae7";
+@UI-aspect-ratio-square-2-1: "\eae8";
+@UI-chevron-down-1: "\eae9";
+@UI-chevron-expand-y-1: "\eaea";
+@UI-chevron-left-1: "\eaeb";
+@UI-chevron-right-1: "\eaec";
+@UI-chevron-up-1: "\eaed";
+@UI-descending-sorting-1: "\eaee";
+@UI-refresh-2-1: "\eaef";
+@UI-subscription-2-1: "\eaf0";
+@UI-bookmark-slash-1: "\eaf1";
+@UI-bookmark-1: "\eaf2";
+@UI-bookmarks-1: "\eaf3";
+@UI-heart-hand-1: "\eaf4";
+@UI-heart-1: "\eaf5";
+@UI-roadmap-1: "\eaf6";
+@UI-star-sparkle-1: "\eaf7";
+@UI-star-1: "\eaf8";
+@UI-tags-1: "\eaf9";
+@UI-tag-1: "\eafa";
+@UI-chart-bar-trend-up-1: "\eafb";
+@UI-link-1: "\eafc";
+@UI-ordered-list-1: "\eafd";
+@UI-text-highlight-1: "\eafe";
+@UI-text-tool-2-1: "\eaff";
+@UI-unordered-list-1: "\eb00";
+@UI-face-plus-1: "\eb01";
+@UI-face-smile-2-1: "\eb02";
+@UI-thumbs-up-1: "\eb03";
+@UI-cookie-1: "\eb04";
+@UI-hot-drink-1: "\eb05";
+@UI-pizza-slice-2-1: "\eb06";
+@UI-gamepad-1: "\eb07";
+@UI-gaming-buttons-1: "\eb08";
+@UI-gem-sparkle-1: "\eb09";
+@UI-rocket-1: "\eb0a";
+@UI-ufo-1: "\eb0b";
+@UI-ball-basket-1: "\eb0c";
+@UI-bicycle-1: "\eb0d";
+@UI-ticket-4-1: "\eb0e";
+@UI-facial-recognition-1: "\eb0f";
+@UI-fingerprint-1: "\eb10";
+@UI-lock-open-2-1: "\eb11";
+@UI-lock-1: "\eb12";
+@UI-password-2-1: "\eb13";
+@UI-shield-check-1: "\eb14";
+@UI-bag-shopping-1: "\eb15";
+@UI-basket-shopping-1: "\eb16";
+@UI-box-1: "\eb17";
+@UI-circle-hashtag-1: "\eb18";
+@UI-cart-shopping-1: "\eb19";
+@UI-forklift-1: "\eb1a";
+@UI-gift-1: "\eb1b";
+@UI-headset-1: "\eb1c";
+@UI-life-ring-1: "\eb1d";
+@UI-shop-1: "\eb1e";
+@UI-scissors-coupon-2-1: "\eb1f";
+@UI-book-open-1: "\eb20";
+@UI-graduation-cap-1: "\eb21";
+@UI-alarm-clock-1: "\eb22";
+@UI-bell-1: "\eb23";
+@UI-calendar-days-1: "\eb24";
+@UI-calendar-1: "\eb25";
+@UI-stopwatch-1: "\eb26";
+@UI-timer-2-1: "\eb27";
+@UI-house-2-1: "\eb28";
+@UI-house-5-1: "\eb29";
+@UI-industry-1: "\eb2a";
+@UI-office-1: "\eb2b";
+@UI-bolt-slash-1: "\eb2c";
+@UI-bolt-1: "\eb2d";
+@UI-cloud-1: "\eb2e";
+@UI-filter-1: "\eb2f";
+@UI-magnifier-face-worried-1: "\eb30";
+@UI-magnifier-1: "\eb31";
+@UI-side-profile-1: "\eb32";
+@UI-user-laptop-1: "\eb33";
+@UI-user-search-1: "\eb34";
+@UI-user-1: "\eb35";
+@UI-users-1: "\eb36";
+@UI-crosshairs-1: "\eb37";
+@UI-crosshairs-slash-1: "\eb38";
+@UI-earth-1: "\eb39";
+@UI-flag-7-1: "\eb3a";
+@UI-location-2-1: "\eb3b";
+@UI-map-1: "\eb3c";
+@UI-pin-tack-1: "\eb3d";
+@UI-pointer-1: "\eb3e";
+@UI-bolt-lightning-1: "\eb3f";
+@UI-camera-2-1: "\eb40";
+@UI-camera-1: "\eb41";
+@UI-film-1: "\eb42";
+@UI-filters-1: "\eb43";
+@UI-half-dotted-circle-play-1: "\eb44";
+@UI-image-mountain-1: "\eb45";
+@UI-image-sparkle-1: "\eb46";
+@UI-image-1: "\eb47";
+@UI-images-2-1: "\eb48";
+@UI-video-1: "\eb49";
+@UI-bullhorn-1: "\eb4a";
+@UI-microphone-slash-1: "\eb4b";
+@UI-microphone-1: "\eb4c";
+@UI-music-note-sparkle-1: "\eb4d";
+@UI-volume-up-1: "\eb4e";
+@UI-volume-1: "\eb4f";
+@UI-at-sign-1: "\eb50";
+@UI-circle-compose-2-1: "\eb51";
+@UI-envelope-open-1: "\eb52";
+@UI-envelope-1: "\eb53";
+@UI-language-1: "\eb54";
+@UI-feather-1: "\eb55";
+@UI-msg-bubble-user-1: "\eb56";
+@UI-msg-smile-1: "\eb57";
+@UI-msg-writing-1: "\eb58";
+@UI-paper-plane-2-1: "\eb59";
+@UI-msgs-1: "\eb5a";
+@UI-paperclip-1: "\eb5b";
+@UI-pen-3-1: "\eb5c";
+@UI-pen-nib-3-1: "\eb5d";
+@UI-pen-sparkle-1: "\eb5e";
+@UI-pen-writing-4-1: "\eb5f";
+@UI-pen-writing-6-1: "\eb60";
+@UI-battery-high-1: "\eb61";
+@UI-battery-1: "\eb62";
+@UI-computer-1: "\eb63";
+@UI-keyboard-1: "\eb64";
+@UI-laptop-mobile-1: "\eb65";
+@UI-laptop-1: "\eb66";
+@UI-phone-1: "\eb67";
+@UI-print-1: "\eb68";
+@UI-satellite-1: "\eb69";
+@UI-signal-2-1: "\eb6a";
+@UI-watch-1: "\eb6b";
+@UI-box-archive-1: "\eb6c";
+@UI-clipboard-check-1: "\eb6d";
+@UI-clipboard-slash-1: "\eb6e";
+@UI-clipboard-1: "\eb6f";
+@UI-desktop-arrow-down-1: "\eb70";
+@UI-file-content-1: "\eb71";
+@UI-file-1: "\eb72";
+@UI-files-2-1: "\eb73";
+@UI-folder-open-1: "\eb74";
+@UI-folder-1: "\eb75";
+@UI-inbox-arrow-down-1: "\eb76";
+@UI-align-3-bottom-1: "\eb77";
+@UI-align-3-horizontal-1: "\eb78";
+@UI-align-3-left-1: "\eb79";
+@UI-align-3-top-1: "\eb7a";
+@UI-align-3-right-1: "\eb7b";
+@UI-align-3-vertical-1: "\eb7c";
+@UI-book-bookmark-1: "\eb7d";
+@UI-draw-compass-1: "\eb7e";
+@UI-hand-1: "\eb7f";
+@UI-magic-wand-1: "\eb80";
+@UI-notification-1: "\eb81";
+@UI-paintbrush-1: "\eb82";
+@UI-plug-2-1: "\eb83";
+@UI-ruler-pen-1: "\eb84";
+@UI-scissors-1: "\eb85";
+@UI-scribble-1: "\eb86";
+@UI-shapes-1: "\eb87";
+@UI-sparkle-3-1: "\eb88";
+@UI-sticker-smile-1: "\eb89";
+@UI-wand-sparkle-1: "\eb8a";
+@UI-window-pointer-1: "\eb8b";
+@UI-award-certificate-1: "\eb8c";
+@UI-award-1: "\eb8d";
+@UI-chair-4-1: "\eb8e";
+@UI-credit-card-1: "\eb8f";
+@UI-gas-pump-1: "\eb90";
+@UI-cryptography-1: "\eb91";
+@UI-globe-pointer-1: "\eb92";
+@UI-handshake-1: "\eb93";
+@UI-lightbulb-3-1: "\eb94";
+@UI-money-bill-coin-1: "\eb95";
+@UI-nodes-1: "\eb96";
+@UI-presentation-screen-1: "\eb97";
+@UI-puzzle-piece-1: "\eb98";
+@UI-scale-1: "\eb99";
+@UI-sitemap-4-1: "\eb9a";
+@UI-suitcase-3-1: "\eb9b";
+@UI-target-1: "\eb9c";
+@UI-vault-3-1: "\eb9d";
+@UI-wallet-2-1: "\eb9e";
+@UI-window-chart-line-1: "\eb9f";
+@UI-dark-light-1: "\eba0";
+@UI-anchor-1: "\eba1";
+@UI-check-1: "\eba2";
+@UI-circle-info-1: "\eba3";
+@UI-circle-half-dotted-check-1: "\eba4";
+@UI-eye-closed-1: "\eba5";
+@UI-eye-open-1: "\eba6";
+@UI-gauge-3-1: "\eba7";
+@UI-gear-2-1: "\eba8";
+@UI-grid-circle-plus-1: "\eba9";
+@UI-layers-3-1: "\ebaa";
+@UI-loader-1: "\ebab";
+@UI-minus-1: "\ebac";
+@UI-plus-1: "\ebad";
+@UI-progress-bar-1: "\ebae";
+@UI-sliders-1: "\ebaf";
+@UI-square-dotted-arrow-bottom-right-1: "\ebb0";
+@UI-square-minus-1: "\ebb1";
+@UI-square-plus-1: "\ebb2";
+@UI-stack-perspective-1: "\ebb3";
+@UI-tasks-2-1: "\ebb4";
+@UI-toggle-3-1: "\ebb5";
+@UI-trash-1: "\ebb6";
+@UI-triangle-warning-1: "\ebb7";
+@UI-window-expand-bottom-right-1: "\ebb8";
+@UI-xmark-1: "\ebb9";
+
+.UI-xmark-2::before {
+  content: @UI-xmark-2;
+}
+
+.UI-window-expand-bottom-right-2::before {
+  content: @UI-window-expand-bottom-right-2;
+}
+
+.UI-trash-2::before {
+  content: @UI-trash-2;
+}
+
+.UI-triangle-warning-2::before {
+  content: @UI-triangle-warning-2;
+}
+
+.UI-toggle-3-2::before {
+  content: @UI-toggle-3-2;
+}
+
+.UI-tasks-2-2::before {
+  content: @UI-tasks-2-2;
+}
+
+.UI-stack-perspective-2::before {
+  content: @UI-stack-perspective-2;
+}
+
+.UI-square-plus-2::before {
+  content: @UI-square-plus-2;
+}
+
+.UI-square-minus-2::before {
+  content: @UI-square-minus-2;
+}
+
+.UI-square-dotted-arrow-bottom-right-2::before {
+  content: @UI-square-dotted-arrow-bottom-right-2;
+}
+
+.UI-sliders-2::before {
+  content: @UI-sliders-2;
+}
+
+.UI-progress-bar-2::before {
+  content: @UI-progress-bar-2;
+}
+
+.UI-plus-2::before {
+  content: @UI-plus-2;
+}
+
+.UI-minus-2::before {
+  content: @UI-minus-2;
+}
+
+.UI-loader-2::before {
+  content: @UI-loader-2;
+}
+
+.UI-layers-3-2::before {
+  content: @UI-layers-3-2;
+}
+
+.UI-grid-circle-plus-2::before {
+  content: @UI-grid-circle-plus-2;
+}
+
+.UI-gear-2-2::before {
+  content: @UI-gear-2-2;
+}
+
+.UI-gauge-3-2::before {
+  content: @UI-gauge-3-2;
+}
+
+.UI-eye-open-2::before {
+  content: @UI-eye-open-2;
+}
+
+.UI-eye-closed-2::before {
+  content: @UI-eye-closed-2;
+}
+
+.UI-circle-info-2::before {
+  content: @UI-circle-info-2;
+}
+
+.UI-circle-half-dotted-check-2::before {
+  content: @UI-circle-half-dotted-check-2;
+}
+
+.UI-check-2::before {
+  content: @UI-check-2;
+}
+
+.UI-anchor-2::before {
+  content: @UI-anchor-2;
+}
+
+.UI-dark-light-2::before {
+  content: @UI-dark-light-2;
+}
+
+.UI-window-chart-line-2::before {
+  content: @UI-window-chart-line-2;
+}
+
+.UI-wallet-2-2::before {
+  content: @UI-wallet-2-2;
+}
+
+.UI-vault-3-2::before {
+  content: @UI-vault-3-2;
+}
+
+.UI-target-2::before {
+  content: @UI-target-2;
+}
+
+.UI-suitcase-3-2::before {
+  content: @UI-suitcase-3-2;
+}
+
+.UI-sitemap-4-2::before {
+  content: @UI-sitemap-4-2;
+}
+
+.UI-scale-2::before {
+  content: @UI-scale-2;
+}
+
+.UI-puzzle-piece-2::before {
+  content: @UI-puzzle-piece-2;
+}
+
+.UI-presentation-screen-2::before {
+  content: @UI-presentation-screen-2;
+}
+
+.UI-nodes-2::before {
+  content: @UI-nodes-2;
+}
+
+.UI-money-bill-coin-2::before {
+  content: @UI-money-bill-coin-2;
+}
+
+.UI-lightbulb-3-2::before {
+  content: @UI-lightbulb-3-2;
+}
+
+.UI-handshake-2::before {
+  content: @UI-handshake-2;
+}
+
+.UI-globe-pointer-2::before {
+  content: @UI-globe-pointer-2;
+}
+
+.UI-gas-pump-2::before {
+  content: @UI-gas-pump-2;
+}
+
+.UI-credit-card-2::before {
+  content: @UI-credit-card-2;
+}
+
+.UI-cryptography-2::before {
+  content: @UI-cryptography-2;
+}
+
+.UI-chair-4-2::before {
+  content: @UI-chair-4-2;
+}
+
+.UI-award-certificate-2::before {
+  content: @UI-award-certificate-2;
+}
+
+.UI-award-2::before {
+  content: @UI-award-2;
+}
+
+.UI-window-pointer-2::before {
+  content: @UI-window-pointer-2;
+}
+
+.UI-wand-sparkle-2::before {
+  content: @UI-wand-sparkle-2;
+}
+
+.UI-sticker-smile-2::before {
+  content: @UI-sticker-smile-2;
+}
+
+.UI-sparkle-3-2::before {
+  content: @UI-sparkle-3-2;
+}
+
+.UI-shapes-2::before {
+  content: @UI-shapes-2;
+}
+
+.UI-scribble-2::before {
+  content: @UI-scribble-2;
+}
+
+.UI-scissors-2::before {
+  content: @UI-scissors-2;
+}
+
+.UI-ruler-pen-2::before {
+  content: @UI-ruler-pen-2;
+}
+
+.UI-plug-2-2::before {
+  content: @UI-plug-2-2;
+}
+
+.UI-paintbrush-2::before {
+  content: @UI-paintbrush-2;
+}
+
+.UI-notification-2::before {
+  content: @UI-notification-2;
+}
+
+.UI-magic-wand-2::before {
+  content: @UI-magic-wand-2;
+}
+
+.UI-hand-2::before {
+  content: @UI-hand-2;
+}
+
+.UI-draw-compass-2::before {
+  content: @UI-draw-compass-2;
+}
+
+.UI-book-bookmark-2::before {
+  content: @UI-book-bookmark-2;
+}
+
+.UI-align-3-vertical-2::before {
+  content: @UI-align-3-vertical-2;
+}
+
+.UI-align-3-top-2::before {
+  content: @UI-align-3-top-2;
+}
+
+.UI-align-3-right-2::before {
+  content: @UI-align-3-right-2;
+}
+
+.UI-align-3-horizontal-2::before {
+  content: @UI-align-3-horizontal-2;
+}
+
+.UI-align-3-left-2::before {
+  content: @UI-align-3-left-2;
+}
+
+.UI-align-3-bottom-2::before {
+  content: @UI-align-3-bottom-2;
+}
+
+.UI-folder-2::before {
+  content: @UI-folder-2;
+}
+
+.UI-inbox-arrow-down-2::before {
+  content: @UI-inbox-arrow-down-2;
+}
+
+.UI-folder-open-2::before {
+  content: @UI-folder-open-2;
+}
+
+.UI-file-2::before {
+  content: @UI-file-2;
+}
+
+.UI-files-2-2::before {
+  content: @UI-files-2-2;
+}
+
+.UI-file-content-2::before {
+  content: @UI-file-content-2;
+}
+
+.UI-desktop-arrow-down-2::before {
+  content: @UI-desktop-arrow-down-2;
+}
+
+.UI-clipboard-2::before {
+  content: @UI-clipboard-2;
+}
+
+.UI-clipboard-slash-2::before {
+  content: @UI-clipboard-slash-2;
+}
+
+.UI-clipboard-check-2::before {
+  content: @UI-clipboard-check-2;
+}
+
+.UI-box-archive-2::before {
+  content: @UI-box-archive-2;
+}
+
+.UI-watch-2::before {
+  content: @UI-watch-2;
+}
+
+.UI-signal-2-2::before {
+  content: @UI-signal-2-2;
+}
+
+.UI-satellite-2::before {
+  content: @UI-satellite-2;
+}
+
+.UI-print-2::before {
+  content: @UI-print-2;
+}
+
+.UI-phone-2::before {
+  content: @UI-phone-2;
+}
+
+.UI-laptop-2::before {
+  content: @UI-laptop-2;
+}
+
+.UI-laptop-mobile-2::before {
+  content: @UI-laptop-mobile-2;
+}
+
+.UI-keyboard-2::before {
+  content: @UI-keyboard-2;
+}
+
+.UI-computer-2::before {
+  content: @UI-computer-2;
+}
+
+.UI-battery-2::before {
+  content: @UI-battery-2;
+}
+
+.UI-battery-high-2::before {
+  content: @UI-battery-high-2;
+}
+
+.UI-pen-writing-6-2::before {
+  content: @UI-pen-writing-6-2;
+}
+
+.UI-pen-writing-4-2::before {
+  content: @UI-pen-writing-4-2;
+}
+
+.UI-pen-sparkle-2::before {
+  content: @UI-pen-sparkle-2;
+}
+
+.UI-pen-nib-3-2::before {
+  content: @UI-pen-nib-3-2;
+}
+
+.UI-pen-3-2::before {
+  content: @UI-pen-3-2;
+}
+
+.UI-paperclip-2::before {
+  content: @UI-paperclip-2;
+}
+
+.UI-msgs-2::before {
+  content: @UI-msgs-2;
+}
+
+.UI-msg-writing-2::before {
+  content: @UI-msg-writing-2;
+}
+
+.UI-paper-plane-2-2::before {
+  content: @UI-paper-plane-2-2;
+}
+
+.UI-msg-smile-2::before {
+  content: @UI-msg-smile-2;
+}
+
+.UI-msg-bubble-user-2::before {
+  content: @UI-msg-bubble-user-2;
+}
+
+.UI-feather-2::before {
+  content: @UI-feather-2;
+}
+
+.UI-language-2::before {
+  content: @UI-language-2;
+}
+
+.UI-envelope-2::before {
+  content: @UI-envelope-2;
+}
+
+.UI-envelope-open-2::before {
+  content: @UI-envelope-open-2;
+}
+
+.UI-circle-compose-2-2::before {
+  content: @UI-circle-compose-2-2;
+}
+
+.UI-at-sign-2::before {
+  content: @UI-at-sign-2;
+}
+
+.UI-volume-2::before {
+  content: @UI-volume-2;
+}
+
+.UI-volume-up-2::before {
+  content: @UI-volume-up-2;
+}
+
+.UI-music-note-sparkle-2::before {
+  content: @UI-music-note-sparkle-2;
+}
+
+.UI-microphone-2::before {
+  content: @UI-microphone-2;
+}
+
+.UI-microphone-slash-2::before {
+  content: @UI-microphone-slash-2;
+}
+
+.UI-bullhorn-2::before {
+  content: @UI-bullhorn-2;
+}
+
+.UI-video-2::before {
+  content: @UI-video-2;
+}
+
+.UI-images-2-2::before {
+  content: @UI-images-2-2;
+}
+
+.UI-image-2::before {
+  content: @UI-image-2;
+}
+
+.UI-image-sparkle-2::before {
+  content: @UI-image-sparkle-2;
+}
+
+.UI-image-mountain-2::before {
+  content: @UI-image-mountain-2;
+}
+
+.UI-filters-2::before {
+  content: @UI-filters-2;
+}
+
+.UI-half-dotted-circle-play-2::before {
+  content: @UI-half-dotted-circle-play-2;
+}
+
+.UI-film-2::before {
+  content: @UI-film-2;
+}
+
+.UI-camera-3::before {
+  content: @UI-camera-3;
+}
+
+.UI-camera-2-2::before {
+  content: @UI-camera-2-2;
+}
+
+.UI-bolt-lightning-2::before {
+  content: @UI-bolt-lightning-2;
+}
+
+.UI-pointer-2::before {
+  content: @UI-pointer-2;
+}
+
+.UI-pin-tack-2::before {
+  content: @UI-pin-tack-2;
+}
+
+.UI-map-2::before {
+  content: @UI-map-2;
+}
+
+.UI-location-2-2::before {
+  content: @UI-location-2-2;
+}
+
+.UI-flag-7-2::before {
+  content: @UI-flag-7-2;
+}
+
+.UI-earth-2::before {
+  content: @UI-earth-2;
+}
+
+.UI-crosshairs-2::before {
+  content: @UI-crosshairs-2;
+}
+
+.UI-crosshairs-slash-2::before {
+  content: @UI-crosshairs-slash-2;
+}
+
+.UI-users-2::before {
+  content: @UI-users-2;
+}
+
+.UI-user-2::before {
+  content: @UI-user-2;
+}
+
+.UI-user-search-2::before {
+  content: @UI-user-search-2;
+}
+
+.UI-user-laptop-2::before {
+  content: @UI-user-laptop-2;
+}
+
+.UI-side-profile-2::before {
+  content: @UI-side-profile-2;
+}
+
+.UI-magnifier-2::before {
+  content: @UI-magnifier-2;
+}
+
+.UI-magnifier-face-worried-2::before {
+  content: @UI-magnifier-face-worried-2;
+}
+
+.UI-filter-2::before {
+  content: @UI-filter-2;
+}
+
+.UI-cloud-2::before {
+  content: @UI-cloud-2;
+}
+
+.UI-bolt-slash-2::before {
+  content: @UI-bolt-slash-2;
+}
+
+.UI-bolt-2::before {
+  content: @UI-bolt-2;
+}
+
+.UI-office-2::before {
+  content: @UI-office-2;
+}
+
+.UI-industry-2::before {
+  content: @UI-industry-2;
+}
+
+.UI-house-5-2::before {
+  content: @UI-house-5-2;
+}
+
+.UI-house-2-2::before {
+  content: @UI-house-2-2;
+}
+
+.UI-stopwatch-2::before {
+  content: @UI-stopwatch-2;
+}
+
+.UI-timer-2-2::before {
+  content: @UI-timer-2-2;
+}
+
+.UI-calendar-2::before {
+  content: @UI-calendar-2;
+}
+
+.UI-calendar-days-2::before {
+  content: @UI-calendar-days-2;
+}
+
+.UI-bell-2::before {
+  content: @UI-bell-2;
+}
+
+.UI-alarm-clock-2::before {
+  content: @UI-alarm-clock-2;
+}
+
+.UI-graduation-cap-2::before {
+  content: @UI-graduation-cap-2;
+}
+
+.UI-book-open-2::before {
+  content: @UI-book-open-2;
+}
+
+.UI-shop-2::before {
+  content: @UI-shop-2;
+}
+
+.UI-scissors-coupon-2-2::before {
+  content: @UI-scissors-coupon-2-2;
+}
+
+.UI-life-ring-2::before {
+  content: @UI-life-ring-2;
+}
+
+.UI-headset-2::before {
+  content: @UI-headset-2;
+}
+
+.UI-gift-2::before {
+  content: @UI-gift-2;
+}
+
+.UI-forklift-2::before {
+  content: @UI-forklift-2;
+}
+
+.UI-circle-hashtag-2::before {
+  content: @UI-circle-hashtag-2;
+}
+
+.UI-cart-shopping-2::before {
+  content: @UI-cart-shopping-2;
+}
+
+.UI-box-2::before {
+  content: @UI-box-2;
+}
+
+.UI-basket-shopping-2::before {
+  content: @UI-basket-shopping-2;
+}
+
+.UI-bag-shopping-2::before {
+  content: @UI-bag-shopping-2;
+}
+
+.UI-shield-check-2::before {
+  content: @UI-shield-check-2;
+}
+
+.UI-password-2-2::before {
+  content: @UI-password-2-2;
+}
+
+.UI-lock-2::before {
+  content: @UI-lock-2;
+}
+
+.UI-lock-open-2-2::before {
+  content: @UI-lock-open-2-2;
+}
+
+.UI-fingerprint-2::before {
+  content: @UI-fingerprint-2;
+}
+
+.UI-facial-recognition-2::before {
+  content: @UI-facial-recognition-2;
+}
+
+.UI-ticket-4-2::before {
+  content: @UI-ticket-4-2;
+}
+
+.UI-bicycle-2::before {
+  content: @UI-bicycle-2;
+}
+
+.UI-ball-basket-2::before {
+  content: @UI-ball-basket-2;
+}
+
+.UI-ufo-2::before {
+  content: @UI-ufo-2;
+}
+
+.UI-rocket-2::before {
+  content: @UI-rocket-2;
+}
+
+.UI-gaming-buttons-2::before {
+  content: @UI-gaming-buttons-2;
+}
+
+.UI-gem-sparkle-2::before {
+  content: @UI-gem-sparkle-2;
+}
+
+.UI-gamepad-2::before {
+  content: @UI-gamepad-2;
+}
+
+.UI-pizza-slice-2-2::before {
+  content: @UI-pizza-slice-2-2;
+}
+
+.UI-hot-drink-2::before {
+  content: @UI-hot-drink-2;
+}
+
+.UI-cookie-2::before {
+  content: @UI-cookie-2;
+}
+
+.UI-thumbs-up-2::before {
+  content: @UI-thumbs-up-2;
+}
+
+.UI-face-smile-2-2::before {
+  content: @UI-face-smile-2-2;
+}
+
+.UI-face-plus-2::before {
+  content: @UI-face-plus-2;
+}
+
+.UI-unordered-list-2::before {
+  content: @UI-unordered-list-2;
+}
+
+.UI-text-tool-2-2::before {
+  content: @UI-text-tool-2-2;
+}
+
+.UI-text-highlight-2::before {
+  content: @UI-text-highlight-2;
+}
+
+.UI-ordered-list-2::before {
+  content: @UI-ordered-list-2;
+}
+
+.UI-link-2::before {
+  content: @UI-link-2;
+}
+
+.UI-arrow-dotted-rotate-anticlockwise-2::before {
+  content: @UI-arrow-dotted-rotate-anticlockwise-2;
+}
+
+.UI-chart-bar-trend-up-2::before {
+  content: @UI-chart-bar-trend-up-2;
+}
+
+.UI-tags-2::before {
+  content: @UI-tags-2;
+}
+
+.UI-tag-2::before {
+  content: @UI-tag-2;
+}
+
+.UI-star-2::before {
+  content: @UI-star-2;
+}
+
+.UI-star-sparkle-2::before {
+  content: @UI-star-sparkle-2;
+}
+
+.UI-roadmap-2::before {
+  content: @UI-roadmap-2;
+}
+
+.UI-heart-2::before {
+  content: @UI-heart-2;
+}
+
+.UI-heart-hand-2::before {
+  content: @UI-heart-hand-2;
+}
+
+.UI-bookmarks-2::before {
+  content: @UI-bookmarks-2;
+}
+
+.UI-bookmark-slash-2::before {
+  content: @UI-bookmark-slash-2;
+}
+
+.UI-bookmark-2::before {
+  content: @UI-bookmark-2;
+}
+
+.UI-subscription-2-2::before {
+  content: @UI-subscription-2-2;
+}
+
+.UI-refresh-2-2::before {
+  content: @UI-refresh-2-2;
+}
+
+.UI-descending-sorting-2::before {
+  content: @UI-descending-sorting-2;
+}
+
+.UI-chevron-up-2::before {
+  content: @UI-chevron-up-2;
+}
+
+.UI-chevron-right-2::before {
+  content: @UI-chevron-right-2;
+}
+
+.UI-chevron-left-2::before {
+  content: @UI-chevron-left-2;
+}
+
+.UI-chevron-expand-y-2::before {
+  content: @UI-chevron-expand-y-2;
+}
+
+.UI-chevron-down-2::before {
+  content: @UI-chevron-down-2;
+}
+
+.UI-aspect-ratio-square-2-2::before {
+  content: @UI-aspect-ratio-square-2-2;
+}
+
+.UI-arrow-door-out-3-2::before {
+  content: @UI-arrow-door-out-3-2;
+}
+
+.UI-arrow-door-in-2::before {
+  content: @UI-arrow-door-in-2;
+}
+
+.UI-rotation-360-2::before {
+  content: @UI-rotation-360-2;
+}
+
+.UI-image-depth-2::before {
+  content: @UI-image-depth-2;
+}
+
+.UI-leaf-2::before {
+  content: @UI-leaf-2;
+}
+
+.UI-flame-2::before {
+  content: @UI-flame-2;
+}
+
+.UI-bug-2::before {
+  content: @UI-bug-2;
+}
+
+.UI-bug-slash-2::before {
+  content: @UI-bug-slash-2;
+}
+
+.UI-accessibility-2::before {
+  content: @UI-accessibility-2;
+}
+
+.UI-accessibility-1::before {
+  content: @UI-accessibility-1;
+}
+
+.UI-bug-slash-1::before {
+  content: @UI-bug-slash-1;
+}
+
+.UI-bug-1::before {
+  content: @UI-bug-1;
+}
+
+.UI-flame-1::before {
+  content: @UI-flame-1;
+}
+
+.UI-leaf-1::before {
+  content: @UI-leaf-1;
+}
+
+.UI-image-depth-1::before {
+  content: @UI-image-depth-1;
+}
+
+.UI-rotation-360-1::before {
+  content: @UI-rotation-360-1;
+}
+
+.UI-arrow-door-in-1::before {
+  content: @UI-arrow-door-in-1;
+}
+
+.UI-arrow-door-out-3-1::before {
+  content: @UI-arrow-door-out-3-1;
+}
+
+.UI-arrow-dotted-rotate-anticlockwise-1::before {
+  content: @UI-arrow-dotted-rotate-anticlockwise-1;
+}
+
+.UI-aspect-ratio-square-2-1::before {
+  content: @UI-aspect-ratio-square-2-1;
+}
+
+.UI-chevron-down-1::before {
+  content: @UI-chevron-down-1;
+}
+
+.UI-chevron-expand-y-1::before {
+  content: @UI-chevron-expand-y-1;
+}
+
+.UI-chevron-left-1::before {
+  content: @UI-chevron-left-1;
+}
+
+.UI-chevron-right-1::before {
+  content: @UI-chevron-right-1;
+}
+
+.UI-chevron-up-1::before {
+  content: @UI-chevron-up-1;
+}
+
+.UI-descending-sorting-1::before {
+  content: @UI-descending-sorting-1;
+}
+
+.UI-refresh-2-1::before {
+  content: @UI-refresh-2-1;
+}
+
+.UI-subscription-2-1::before {
+  content: @UI-subscription-2-1;
+}
+
+.UI-bookmark-slash-1::before {
+  content: @UI-bookmark-slash-1;
+}
+
+.UI-bookmark-1::before {
+  content: @UI-bookmark-1;
+}
+
+.UI-bookmarks-1::before {
+  content: @UI-bookmarks-1;
+}
+
+.UI-heart-hand-1::before {
+  content: @UI-heart-hand-1;
+}
+
+.UI-heart-1::before {
+  content: @UI-heart-1;
+}
+
+.UI-roadmap-1::before {
+  content: @UI-roadmap-1;
+}
+
+.UI-star-sparkle-1::before {
+  content: @UI-star-sparkle-1;
+}
+
+.UI-star-1::before {
+  content: @UI-star-1;
+}
+
+.UI-tags-1::before {
+  content: @UI-tags-1;
+}
+
+.UI-tag-1::before {
+  content: @UI-tag-1;
+}
+
+.UI-chart-bar-trend-up-1::before {
+  content: @UI-chart-bar-trend-up-1;
+}
+
+.UI-link-1::before {
+  content: @UI-link-1;
+}
+
+.UI-ordered-list-1::before {
+  content: @UI-ordered-list-1;
+}
+
+.UI-text-highlight-1::before {
+  content: @UI-text-highlight-1;
+}
+
+.UI-text-tool-2-1::before {
+  content: @UI-text-tool-2-1;
+}
+
+.UI-unordered-list-1::before {
+  content: @UI-unordered-list-1;
+}
+
+.UI-face-plus-1::before {
+  content: @UI-face-plus-1;
+}
+
+.UI-face-smile-2-1::before {
+  content: @UI-face-smile-2-1;
+}
+
+.UI-thumbs-up-1::before {
+  content: @UI-thumbs-up-1;
+}
+
+.UI-cookie-1::before {
+  content: @UI-cookie-1;
+}
+
+.UI-hot-drink-1::before {
+  content: @UI-hot-drink-1;
+}
+
+.UI-pizza-slice-2-1::before {
+  content: @UI-pizza-slice-2-1;
+}
+
+.UI-gamepad-1::before {
+  content: @UI-gamepad-1;
+}
+
+.UI-gaming-buttons-1::before {
+  content: @UI-gaming-buttons-1;
+}
+
+.UI-gem-sparkle-1::before {
+  content: @UI-gem-sparkle-1;
+}
+
+.UI-rocket-1::before {
+  content: @UI-rocket-1;
+}
+
+.UI-ufo-1::before {
+  content: @UI-ufo-1;
+}
+
+.UI-ball-basket-1::before {
+  content: @UI-ball-basket-1;
+}
+
+.UI-bicycle-1::before {
+  content: @UI-bicycle-1;
+}
+
+.UI-ticket-4-1::before {
+  content: @UI-ticket-4-1;
+}
+
+.UI-facial-recognition-1::before {
+  content: @UI-facial-recognition-1;
+}
+
+.UI-fingerprint-1::before {
+  content: @UI-fingerprint-1;
+}
+
+.UI-lock-open-2-1::before {
+  content: @UI-lock-open-2-1;
+}
+
+.UI-lock-1::before {
+  content: @UI-lock-1;
+}
+
+.UI-password-2-1::before {
+  content: @UI-password-2-1;
+}
+
+.UI-shield-check-1::before {
+  content: @UI-shield-check-1;
+}
+
+.UI-bag-shopping-1::before {
+  content: @UI-bag-shopping-1;
+}
+
+.UI-basket-shopping-1::before {
+  content: @UI-basket-shopping-1;
+}
+
+.UI-box-1::before {
+  content: @UI-box-1;
+}
+
+.UI-circle-hashtag-1::before {
+  content: @UI-circle-hashtag-1;
+}
+
+.UI-cart-shopping-1::before {
+  content: @UI-cart-shopping-1;
+}
+
+.UI-forklift-1::before {
+  content: @UI-forklift-1;
+}
+
+.UI-gift-1::before {
+  content: @UI-gift-1;
+}
+
+.UI-headset-1::before {
+  content: @UI-headset-1;
+}
+
+.UI-life-ring-1::before {
+  content: @UI-life-ring-1;
+}
+
+.UI-shop-1::before {
+  content: @UI-shop-1;
+}
+
+.UI-scissors-coupon-2-1::before {
+  content: @UI-scissors-coupon-2-1;
+}
+
+.UI-book-open-1::before {
+  content: @UI-book-open-1;
+}
+
+.UI-graduation-cap-1::before {
+  content: @UI-graduation-cap-1;
+}
+
+.UI-alarm-clock-1::before {
+  content: @UI-alarm-clock-1;
+}
+
+.UI-bell-1::before {
+  content: @UI-bell-1;
+}
+
+.UI-calendar-days-1::before {
+  content: @UI-calendar-days-1;
+}
+
+.UI-calendar-1::before {
+  content: @UI-calendar-1;
+}
+
+.UI-stopwatch-1::before {
+  content: @UI-stopwatch-1;
+}
+
+.UI-timer-2-1::before {
+  content: @UI-timer-2-1;
+}
+
+.UI-house-2-1::before {
+  content: @UI-house-2-1;
+}
+
+.UI-house-5-1::before {
+  content: @UI-house-5-1;
+}
+
+.UI-industry-1::before {
+  content: @UI-industry-1;
+}
+
+.UI-office-1::before {
+  content: @UI-office-1;
+}
+
+.UI-bolt-slash-1::before {
+  content: @UI-bolt-slash-1;
+}
+
+.UI-bolt-1::before {
+  content: @UI-bolt-1;
+}
+
+.UI-cloud-1::before {
+  content: @UI-cloud-1;
+}
+
+.UI-filter-1::before {
+  content: @UI-filter-1;
+}
+
+.UI-magnifier-face-worried-1::before {
+  content: @UI-magnifier-face-worried-1;
+}
+
+.UI-magnifier-1::before {
+  content: @UI-magnifier-1;
+}
+
+.UI-side-profile-1::before {
+  content: @UI-side-profile-1;
+}
+
+.UI-user-laptop-1::before {
+  content: @UI-user-laptop-1;
+}
+
+.UI-user-search-1::before {
+  content: @UI-user-search-1;
+}
+
+.UI-user-1::before {
+  content: @UI-user-1;
+}
+
+.UI-users-1::before {
+  content: @UI-users-1;
+}
+
+.UI-crosshairs-1::before {
+  content: @UI-crosshairs-1;
+}
+
+.UI-crosshairs-slash-1::before {
+  content: @UI-crosshairs-slash-1;
+}
+
+.UI-earth-1::before {
+  content: @UI-earth-1;
+}
+
+.UI-flag-7-1::before {
+  content: @UI-flag-7-1;
+}
+
+.UI-location-2-1::before {
+  content: @UI-location-2-1;
+}
+
+.UI-map-1::before {
+  content: @UI-map-1;
+}
+
+.UI-pin-tack-1::before {
+  content: @UI-pin-tack-1;
+}
+
+.UI-pointer-1::before {
+  content: @UI-pointer-1;
+}
+
+.UI-bolt-lightning-1::before {
+  content: @UI-bolt-lightning-1;
+}
+
+.UI-camera-2-1::before {
+  content: @UI-camera-2-1;
+}
+
+.UI-camera-1::before {
+  content: @UI-camera-1;
+}
+
+.UI-film-1::before {
+  content: @UI-film-1;
+}
+
+.UI-filters-1::before {
+  content: @UI-filters-1;
+}
+
+.UI-half-dotted-circle-play-1::before {
+  content: @UI-half-dotted-circle-play-1;
+}
+
+.UI-image-mountain-1::before {
+  content: @UI-image-mountain-1;
+}
+
+.UI-image-sparkle-1::before {
+  content: @UI-image-sparkle-1;
+}
+
+.UI-image-1::before {
+  content: @UI-image-1;
+}
+
+.UI-images-2-1::before {
+  content: @UI-images-2-1;
+}
+
+.UI-video-1::before {
+  content: @UI-video-1;
+}
+
+.UI-bullhorn-1::before {
+  content: @UI-bullhorn-1;
+}
+
+.UI-microphone-slash-1::before {
+  content: @UI-microphone-slash-1;
+}
+
+.UI-microphone-1::before {
+  content: @UI-microphone-1;
+}
+
+.UI-music-note-sparkle-1::before {
+  content: @UI-music-note-sparkle-1;
+}
+
+.UI-volume-up-1::before {
+  content: @UI-volume-up-1;
+}
+
+.UI-volume-1::before {
+  content: @UI-volume-1;
+}
+
+.UI-at-sign-1::before {
+  content: @UI-at-sign-1;
+}
+
+.UI-circle-compose-2-1::before {
+  content: @UI-circle-compose-2-1;
+}
+
+.UI-envelope-open-1::before {
+  content: @UI-envelope-open-1;
+}
+
+.UI-envelope-1::before {
+  content: @UI-envelope-1;
+}
+
+.UI-language-1::before {
+  content: @UI-language-1;
+}
+
+.UI-feather-1::before {
+  content: @UI-feather-1;
+}
+
+.UI-msg-bubble-user-1::before {
+  content: @UI-msg-bubble-user-1;
+}
+
+.UI-msg-smile-1::before {
+  content: @UI-msg-smile-1;
+}
+
+.UI-msg-writing-1::before {
+  content: @UI-msg-writing-1;
+}
+
+.UI-paper-plane-2-1::before {
+  content: @UI-paper-plane-2-1;
+}
+
+.UI-msgs-1::before {
+  content: @UI-msgs-1;
+}
+
+.UI-paperclip-1::before {
+  content: @UI-paperclip-1;
+}
+
+.UI-pen-3-1::before {
+  content: @UI-pen-3-1;
+}
+
+.UI-pen-nib-3-1::before {
+  content: @UI-pen-nib-3-1;
+}
+
+.UI-pen-sparkle-1::before {
+  content: @UI-pen-sparkle-1;
+}
+
+.UI-pen-writing-4-1::before {
+  content: @UI-pen-writing-4-1;
+}
+
+.UI-pen-writing-6-1::before {
+  content: @UI-pen-writing-6-1;
+}
+
+.UI-battery-high-1::before {
+  content: @UI-battery-high-1;
+}
+
+.UI-battery-1::before {
+  content: @UI-battery-1;
+}
+
+.UI-computer-1::before {
+  content: @UI-computer-1;
+}
+
+.UI-keyboard-1::before {
+  content: @UI-keyboard-1;
+}
+
+.UI-laptop-mobile-1::before {
+  content: @UI-laptop-mobile-1;
+}
+
+.UI-laptop-1::before {
+  content: @UI-laptop-1;
+}
+
+.UI-phone-1::before {
+  content: @UI-phone-1;
+}
+
+.UI-print-1::before {
+  content: @UI-print-1;
+}
+
+.UI-satellite-1::before {
+  content: @UI-satellite-1;
+}
+
+.UI-signal-2-1::before {
+  content: @UI-signal-2-1;
+}
+
+.UI-watch-1::before {
+  content: @UI-watch-1;
+}
+
+.UI-box-archive-1::before {
+  content: @UI-box-archive-1;
+}
+
+.UI-clipboard-check-1::before {
+  content: @UI-clipboard-check-1;
+}
+
+.UI-clipboard-slash-1::before {
+  content: @UI-clipboard-slash-1;
+}
+
+.UI-clipboard-1::before {
+  content: @UI-clipboard-1;
+}
+
+.UI-desktop-arrow-down-1::before {
+  content: @UI-desktop-arrow-down-1;
+}
+
+.UI-file-content-1::before {
+  content: @UI-file-content-1;
+}
+
+.UI-file-1::before {
+  content: @UI-file-1;
+}
+
+.UI-files-2-1::before {
+  content: @UI-files-2-1;
+}
+
+.UI-folder-open-1::before {
+  content: @UI-folder-open-1;
+}
+
+.UI-folder-1::before {
+  content: @UI-folder-1;
+}
+
+.UI-inbox-arrow-down-1::before {
+  content: @UI-inbox-arrow-down-1;
+}
+
+.UI-align-3-bottom-1::before {
+  content: @UI-align-3-bottom-1;
+}
+
+.UI-align-3-horizontal-1::before {
+  content: @UI-align-3-horizontal-1;
+}
+
+.UI-align-3-left-1::before {
+  content: @UI-align-3-left-1;
+}
+
+.UI-align-3-top-1::before {
+  content: @UI-align-3-top-1;
+}
+
+.UI-align-3-right-1::before {
+  content: @UI-align-3-right-1;
+}
+
+.UI-align-3-vertical-1::before {
+  content: @UI-align-3-vertical-1;
+}
+
+.UI-book-bookmark-1::before {
+  content: @UI-book-bookmark-1;
+}
+
+.UI-draw-compass-1::before {
+  content: @UI-draw-compass-1;
+}
+
+.UI-hand-1::before {
+  content: @UI-hand-1;
+}
+
+.UI-magic-wand-1::before {
+  content: @UI-magic-wand-1;
+}
+
+.UI-notification-1::before {
+  content: @UI-notification-1;
+}
+
+.UI-paintbrush-1::before {
+  content: @UI-paintbrush-1;
+}
+
+.UI-plug-2-1::before {
+  content: @UI-plug-2-1;
+}
+
+.UI-ruler-pen-1::before {
+  content: @UI-ruler-pen-1;
+}
+
+.UI-scissors-1::before {
+  content: @UI-scissors-1;
+}
+
+.UI-scribble-1::before {
+  content: @UI-scribble-1;
+}
+
+.UI-shapes-1::before {
+  content: @UI-shapes-1;
+}
+
+.UI-sparkle-3-1::before {
+  content: @UI-sparkle-3-1;
+}
+
+.UI-sticker-smile-1::before {
+  content: @UI-sticker-smile-1;
+}
+
+.UI-wand-sparkle-1::before {
+  content: @UI-wand-sparkle-1;
+}
+
+.UI-window-pointer-1::before {
+  content: @UI-window-pointer-1;
+}
+
+.UI-award-certificate-1::before {
+  content: @UI-award-certificate-1;
+}
+
+.UI-award-1::before {
+  content: @UI-award-1;
+}
+
+.UI-chair-4-1::before {
+  content: @UI-chair-4-1;
+}
+
+.UI-credit-card-1::before {
+  content: @UI-credit-card-1;
+}
+
+.UI-gas-pump-1::before {
+  content: @UI-gas-pump-1;
+}
+
+.UI-cryptography-1::before {
+  content: @UI-cryptography-1;
+}
+
+.UI-globe-pointer-1::before {
+  content: @UI-globe-pointer-1;
+}
+
+.UI-handshake-1::before {
+  content: @UI-handshake-1;
+}
+
+.UI-lightbulb-3-1::before {
+  content: @UI-lightbulb-3-1;
+}
+
+.UI-money-bill-coin-1::before {
+  content: @UI-money-bill-coin-1;
+}
+
+.UI-nodes-1::before {
+  content: @UI-nodes-1;
+}
+
+.UI-presentation-screen-1::before {
+  content: @UI-presentation-screen-1;
+}
+
+.UI-puzzle-piece-1::before {
+  content: @UI-puzzle-piece-1;
+}
+
+.UI-scale-1::before {
+  content: @UI-scale-1;
+}
+
+.UI-sitemap-4-1::before {
+  content: @UI-sitemap-4-1;
+}
+
+.UI-suitcase-3-1::before {
+  content: @UI-suitcase-3-1;
+}
+
+.UI-target-1::before {
+  content: @UI-target-1;
+}
+
+.UI-vault-3-1::before {
+  content: @UI-vault-3-1;
+}
+
+.UI-wallet-2-1::before {
+  content: @UI-wallet-2-1;
+}
+
+.UI-window-chart-line-1::before {
+  content: @UI-window-chart-line-1;
+}
+
+.UI-dark-light-1::before {
+  content: @UI-dark-light-1;
+}
+
+.UI-anchor-1::before {
+  content: @UI-anchor-1;
+}
+
+.UI-check-1::before {
+  content: @UI-check-1;
+}
+
+.UI-circle-info-1::before {
+  content: @UI-circle-info-1;
+}
+
+.UI-circle-half-dotted-check-1::before {
+  content: @UI-circle-half-dotted-check-1;
+}
+
+.UI-eye-closed-1::before {
+  content: @UI-eye-closed-1;
+}
+
+.UI-eye-open-1::before {
+  content: @UI-eye-open-1;
+}
+
+.UI-gauge-3-1::before {
+  content: @UI-gauge-3-1;
+}
+
+.UI-gear-2-1::before {
+  content: @UI-gear-2-1;
+}
+
+.UI-grid-circle-plus-1::before {
+  content: @UI-grid-circle-plus-1;
+}
+
+.UI-layers-3-1::before {
+  content: @UI-layers-3-1;
+}
+
+.UI-loader-1::before {
+  content: @UI-loader-1;
+}
+
+.UI-minus-1::before {
+  content: @UI-minus-1;
+}
+
+.UI-plus-1::before {
+  content: @UI-plus-1;
+}
+
+.UI-progress-bar-1::before {
+  content: @UI-progress-bar-1;
+}
+
+.UI-sliders-1::before {
+  content: @UI-sliders-1;
+}
+
+.UI-square-dotted-arrow-bottom-right-1::before {
+  content: @UI-square-dotted-arrow-bottom-right-1;
+}
+
+.UI-square-minus-1::before {
+  content: @UI-square-minus-1;
+}
+
+.UI-square-plus-1::before {
+  content: @UI-square-plus-1;
+}
+
+.UI-stack-perspective-1::before {
+  content: @UI-stack-perspective-1;
+}
+
+.UI-tasks-2-1::before {
+  content: @UI-tasks-2-1;
+}
+
+.UI-toggle-3-1::before {
+  content: @UI-toggle-3-1;
+}
+
+.UI-trash-1::before {
+  content: @UI-trash-1;
+}
+
+.UI-triangle-warning-1::before {
+  content: @UI-triangle-warning-1;
+}
+
+.UI-window-expand-bottom-right-1::before {
+  content: @UI-window-expand-bottom-right-1;
+}
+
+.UI-xmark-1::before {
+  content: @UI-xmark-1;
+}
+

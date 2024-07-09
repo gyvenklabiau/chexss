@@ -1,0 +1,47 @@
+/* --------------------------------
+
+Generated using nucleoapp.com
+
+-------------------------------- */
+.icon {
+    display: inline-block;
+    background-image: url(icons.svg);
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.icon.chess-queen {
+    background-position: -0px 0px;
+    height: 64px;
+    width: 64px;
+}
+
+.icon.chess-pawn {
+    background-position: -64px 0px;
+    height: 64px;
+    width: 64px;
+}
+
+.icon.chess-tower {
+    background-position: -128px 0px;
+    height: 64px;
+    width: 64px;
+}
+
+.icon.chess-king {
+    background-position: -192px 0px;
+    height: 64px;
+    width: 64px;
+}
+
+.icon.chess-bishop {
+    background-position: -256px 0px;
+    height: 64px;
+    width: 64px;
+}
+
+.icon.chess-knight {
+    background-position: -320px 0px;
+    height: 64px;
+    width: 64px;
+} 
