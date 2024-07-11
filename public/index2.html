@@ -2,15 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chexss</title>
 
     <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-storage-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database-compat.js"></script>
 
     <link rel="stylesheet" type="text/css" href="icons.css">
+    <script src="s.js"></script>
+    <script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyACyOLTqRW0e0fNYazZ3EBrOx_tCK7yleI",
+    authDomain: "chexss.firebaseapp.com",
+    databaseURL: "https://chexss-default-rtdb.firebaseio.com",
+    projectId: "chexss",
+    storageBucket: "chexss.appspot.com",
+    messagingSenderId: "653145902526",
+    appId: "1:653145902526:web:d1169f885cd550a82e3def",
+    measurementId: "G-S1Y5BKHFK9"
+  };
+  
+  </script>
 
     <style>
       * { box-sizing: border-box; }
@@ -23,42 +35,47 @@
         justify-content: center;
       }
 
-      .board { 
+      #chexss, #board { 
         height: 100vmin;
         width: 100vmin;
         display: flex;
         flex-wrap: wrap;
       }
 
-      .tile, .square   { 
+      #chexss > div, .square { 
         width: 12.5vmin;
         height: 12.5vmin;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: lightpink;
       }
+
+      #chexss > div:nth-child( round((n+1)/8) ) { background-color: black; }
 
       .black { background-color: #3c537a; }
       .white { background-color: #a8a8a8; }
-
       .piece { background-position: center; background-repeat: no-repeat; width: 80%; height: 80%; }
 
-      .black-pawn { background-image: url('pieces/black-pawn.svg') }
-      .black-rook { background-image: url('pieces/black-rook.png'); background-size: contain; }
-      .black-knight { background-image: url('pieces/black-knight.svg') }
-      .black-bishop { background-image: url('pieces/black-bishop.svg') }
-      .black-queen { background-image: url('pieces/black-queen.svg') }
-      .black-king { background-image: url('pieces/black-king.svg') }
-      .white-pawn { background-image: url('pieces/white-pawn.svg') }
-      .white-rook { background-image: url('pieces/white-rook.svg') }
-      .white-knight { background-image: url('pieces/white-knight.svg') }
-      .white-bishop { background-image: url('pieces/white-bishop.svg') }
-      .white-queen { background-image: url('pieces/white-queen.svg') }
-      .white-king { background-image: url('pieces/white-king.svg') }
+     #f71,#f72,#f73,#f74,#f75,#f76,#f77,#f78 { background-image: url('pieces/black-pawn.svg') }
+     #f81,#f88 { background-image: url('pieces/black-rook.png'); background-size: contain; }
+     #f82,#f87 { background-image: url('pieces/black-knight.svg') }
+     #f83,#f86 { background-image: url('pieces/black-bishop.svg') }
+     #f85 { background-image: url('pieces/black-queen.svg') }
+     #f84 { background-image: url('pieces/black-king.svg') }
+     #f21,#f22,#f23,#f24,#f25,#f26,#f27,#f28 { background-image: url('pieces/white-pawn.svg') }
+     #f11,#f18 { background-image: url('pieces/white-rook.svg') }
+     #f12,#f17 { background-image: url('pieces/white-knight.svg') }
+     #f13,#f16 { background-image: url('pieces/white-bishop.svg') }
+     #f14 { background-image: url('pieces/white-queen.svg') }
+     #f15 { background-image: url('pieces/white-king.svg') }
+
+
+      
     </style>
   </head>
   <body>
-    <div class="board" id="AA">
+    <div class="board" id="AA" hidden>
       <div class="line" id="A">
         <div class="square "id="A1"></div>
         <div class="square "id="A2"></div>
@@ -141,7 +158,7 @@
       </div>
     </div>
     
-    <div id="b1">
+    <div id="b1" hidden>
       <div class="tile white" id="81"><div class="piece black-rook" id="f81"></div></div>
       <div class="tile black" id="82"><div class="piece black-knight" id="f82"></div></div>
       <div class="tile white" id="83"><div class="piece black-bishop" id="f83"></div></div>
@@ -207,36 +224,49 @@
       <div class="tile black" id="17"><div class="piece white-knight" id="f17"></div></div>
       <div class="tile white" id="18"><div class="piece white-rook" id="f18"></div></div>
     </div>
+
+    <div id="chexss"></div>
     <script id="b1script">
+        //make a board #1
+      // const board = document.getElementById('board')
+      // var moves = ''
+      // var selected_piece = null
 
-      const board = document.getElementById('board')
-      var moves = ''
-      var selected_piece = null
+      // const tiles = document.querySelectorAll('.tile')
+      // tiles.forEach(tile => {
+      //   tile.addEventListener('click', (event) => {
+      //     console.log(event.target)
+      //     event.target.draggable = true
+      //     event.target.addEventListener('ondrag', (drag) => {
+      //       //move the figure
+      //       event.target.style.transform = `translate(${drag.x}, ${drag.y})`
+      //     })
+      //     selectOrMove(event)
+      //   })
+      // })
+    </script>
+    <script>
 
-      const tiles = document.querySelectorAll('.tile')
-      tiles.forEach(tile => {
-        tile.addEventListener('click', (event) => {
-          console.log(event.target)
-          event.target.draggable = true
-          event.target.addEventListener('ondrag', (drag) => {
-            //move the figure
-            event.target.style.transform = `translate(${drag.x}, ${drag.y})`
-          })
-          selectOrMove(event)
-        })
-      })
+    var board=    {11:11,12:12,13:13,14:14,15:15,16:16,17:17,18:18,21:21,22:22,23:23,24:24,25:25,26:26,27:27,28:28,31:0,32:0,33:0,34:0,35:0,36:0,37:0,38:0,41:0,42:0,43:0,44:0,45:0,46:0,47:0,48:0,51:0,52:0,53:0,54:0,55:0,56:0,57:0,58:0,61:0,62:0,63:0,64:0,65:0,66:0,67:0,68:0,71:71,72:72,73:73,74:74,75:75,76:76,77:77,78:78,81:81,82:82,83:83,84:84,85:85,86:86,87:87,88:88}
 
-      function selectOrMove(event) {
-        let tile = event.target
-        selected_piece ? move(tile) : select(tile)
-      }
+      for(square in board) {
+        console.log(square)
+        let field = to('#chexss', { id: square })
+        board[square] ? to(field, {cl: square}) : null
+      } 
 
-      function select(tile) { selected_piece = tile }
+      // function selectOrMove(event) {
+      //   let tile = event.target
+      //   selected_piece ? move(tile) : select(tile)
+      // }
 
-      function move(tile) {
-        tile.append(selected_piece)
-        selected_piece = null
-      }
+      // function select(tile) { selected_piece = tile }
+
+      // function move(tile) {
+      //   tile.append(selected_piece)
+      //   selected_piece = null
+      //   moves +
+      // }
     </script>
   </body>
 </html>
